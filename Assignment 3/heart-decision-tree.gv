@@ -1,303 +1,612 @@
 // Heart Data Decision Tree
 digraph {
-	"42b9e992-4f9d-40f6-8dae-af64dc04eef9" [label=thal]
-	"0e9b5d3d-d16d-4bd3-9707-ac2c134885cc" [label=chest_pain_type]
-	"bcc4eeac-3a1b-4f83-b93b-338047c8e3f0" [label=chest_pain_type]
-	"48105109-3b21-4dee-aa0d-1a0b80866157" [label=chest_pain_type]
-	"55254658-8d92-4e76-8c82-cab8e83ec0a6" [label=chest_pain_type]
-	"e3631ca6-0c91-4681-9db4-a857004c890c" [label=number_of_major_vessels]
-	"e6a38367-9556-48c8-9417-4ce39ffab59c" [label=number_of_major_vessels]
-	"881f1815-74ea-43fc-8826-0f7fb0149862" [label=thal]
-	"f7db5371-4e13-49e8-874f-89fa2220a614" [label=chest_pain_type]
-	"2d1b2a4a-f7bb-485f-83e8-678eca6c70b6" [label=chest_pain_type]
-	"c453792c-e723-42ec-bf48-5ee2911532b1" [label=chest_pain_type]
-	"bdc25f71-bdc1-4779-bcb0-9aa207041d7b" [label=chest_pain_type]
-	"fe305300-c7bf-424d-9455-e626cf05ea53" [label=thal]
-	"5d1d112e-d28a-4e2d-a61d-93354acd5970" [label=serum_cholesterol]
-	"4c269fa8-a030-427e-96c7-894d57f507bc" [label=serum_cholesterol]
-	"4aa82b25-fe63-4fd8-b522-5d1e1e2e5886" [label=oldpeak]
-	"7c1243e8-2a49-49cc-8ff5-ad7fb79b5b1f" [label=oldpeak]
-	"2b5eb540-c014-46a2-b240-f081b9f93f48" [label=maximum_heart_rate_achieved]
-	"63e870bb-49c4-43df-a84f-4a1d6ee6e5b8" [label=maximum_heart_rate_achieved]
-	"c54bd5c0-ee73-4431-aca2-7568b3e5724f" [label=number_of_major_vessels]
-	"1ed16e97-77ee-408c-a188-275bd44ec843" [label=number_of_major_vessels]
-	"2ef8dd14-a9e3-4b80-b174-e9790659663c" [label=maximum_heart_rate_achieved]
-	"6762e826-6cc7-4fbc-ac75-1814255217c8" [label=maximum_heart_rate_achieved]
-	"39e4f5f4-23e7-45aa-bcc5-eea6daced490" [label=maximum_heart_rate_achieved]
-	"0ebd75e1-6dc0-470e-a2e3-8a59af1d9536" [label=maximum_heart_rate_achieved]
-	"69919cbd-e8ae-47df-b3ab-be306be058d6" [label=maximum_heart_rate_achieved]
-	"e629840f-1329-4f79-bfde-b2587b05ec2e" [label=maximum_heart_rate_achieved]
-	"944a3c31-c1e8-40fb-a6f4-fe5d2973e545" [label=oldpeak]
-	"b5d98cf5-7c6f-4d8f-a6f3-6986b1857c9c" [label=oldpeak]
-	"c9c7a354-ac9f-4562-aab5-3dfee96946bd" [label=oldpeak]
-	"c00cb5a3-50e2-4290-9e17-de98937c97fb" [label=oldpeak]
-	"5c39d8c9-b185-48e2-a654-4e01ab6b3bae" [label=oldpeak]
-	"ef1cd107-36cc-4ff0-81c8-be091c2305af" [label=oldpeak]
-	"63d8edfb-f07d-4091-909a-20c2779da9d2" [label=oldpeak]
-	"83ff559f-d2e4-4883-b0a1-11f44b8eec3e" [label=oldpeak]
-	"f92a1891-feca-4e68-b10c-9d7888607c77" [label=age]
-	"a460b7b7-32c2-45e3-8564-309e2839f5b0" [label=age]
-	"5e1fadf0-3ec1-4e16-a674-5517ac07d4a3" [label=serum_cholesterol]
-	"53241d40-d9e5-4e59-a642-2d605a2977c5" [label=serum_cholesterol]
-	"597981cc-832d-4c07-9fe2-d7f133db58a2" [label=sex]
-	"c438e451-8def-43bc-bec2-630403d1ec76" [label=sex]
-	"5f909b59-8d78-48b0-bdcf-70d23d7506db" [label=exercise_induced_angina]
-	"a94af014-9f75-4649-97b8-2b6a6eb1a4d6" [label=exercise_induced_angina]
-	"f5f38e47-d5b4-42d7-a175-140aa6eecb18" [label=age]
-	"025894fd-9da3-46cf-888c-434cb5cdbaa7" [label=age]
-	"6ac19a25-8272-4391-a4ed-606e3fb685cd" [label=sex]
-	"2ccc5ea5-f638-44fe-8c53-cd5db58f4d8b" [label=sex]
-	"d40eae11-b5ce-47ed-93bb-537ff9178593" [label=exercise_induced_angina]
-	"f9eae0c6-fb34-4519-8b4d-4390ecd9448f" [label=exercise_induced_angina]
-	"06fbbe27-2fab-4674-8f74-98932574063a" [label=exercise_induced_angina]
-	"407cc0cc-a07f-453c-ba89-596ed0e768f1" [label=exercise_induced_angina]
-	"d8ca3bd7-0019-4618-90d6-c453c07edb51" [label=exercise_induced_angina]
-	"0bb51b79-9c65-462c-a42c-f7556f2d92ae" [label=oldpeak]
-	"05fb05f2-56af-41c8-aa6e-f9de73cd6d03" [label=oldpeak]
-	"ec998667-4b27-485f-89fc-0b706446e9bd" [label=resting_blood_pressure]
-	"95097455-ca63-4f21-a3c0-767f047263d5" [label=resting_blood_pressure]
-	"4f178922-7b80-4588-a434-95669590ab70" [label=exercise_induced_angina]
-	"97f82b60-3750-4492-a6ff-427e16f25d08" [label=slope_peak_exercise]
-	"d4434c04-57c7-4386-9e58-5fce8d2d2650" [label=slope_peak_exercise]
-	"f4c101e0-601a-4e17-afa6-a2d665795a1e" [label=slope_peak_exercise]
-	"baeda233-bfab-4a77-accd-6654a2e23d73" [label=exercise_induced_angina]
-	"7e348544-1f07-4e2f-901f-354013621308" [label=exercise_induced_angina]
-	"aad8773c-a650-454a-9f43-112ec5b3219b" [label=maximum_heart_rate_achieved]
-	"458cbf16-5db3-4ecc-bbf2-b3b3f0b6a0be" [label=maximum_heart_rate_achieved]
-	"bf70ee93-8a1f-4bcc-90c0-6b38729814e3" [label=exercise_induced_angina]
-	"c203d4e2-4767-4f53-9c66-6f5badfeb361" [label=exercise_induced_angina]
-	"edee0ae8-cbbb-4237-ba88-14da04d7147e" [label=exercise_induced_angina]
-	"b6a950c3-b09a-43dd-b8bc-900ba5710e5a" [label=exercise_induced_angina]
-	"4c6a85b7-f49a-41be-a17f-6b2d740354ad" [label=resting_blood_pressure]
-	"3181d5ad-110e-4052-9637-0e3da2fcae14" [label=resting_blood_pressure]
-	"58db798f-276b-46f1-b478-f37bcf24c4aa" [label=exercise_induced_angina]
-	"b365b46b-e2d2-4285-b24e-0c95c281fc1d" [label=exercise_induced_angina]
-	"c1d695eb-6d74-4501-b393-93fc1d2b570b" [label=exercise_induced_angina]
-	"4c3c082d-f6e5-4c0b-9535-6bfe9b614c33" [label=resting_blood_pressure]
-	"d59fbc63-7553-446f-9098-def30a0c7c65" [label=resting_blood_pressure]
-	"b36c394c-6f9f-4b66-a6f8-e9d6b53bcda0" [label=oldpeak]
-	"1ca822f6-7713-4407-9b86-7690b48cb078" [label=oldpeak]
-	"6b099383-6dba-4046-95ba-8be230a1ef6c" [label=maximum_heart_rate_achieved]
-	"3d05c5a6-a9c0-4245-93f0-c3972e243c50" [label=maximum_heart_rate_achieved]
-	"8d91e329-da02-4f11-9ee6-5b5a37512219" [label=resting_blood_pressure]
-	"9caba015-d60a-4024-ae8a-e524ba7b1c91" [label=resting_blood_pressure]
-	"736429f1-3fe5-4220-a512-dbaef15e444f" [label=slope_peak_exercise]
-	"f6f43416-3f99-44cf-aedc-343d0cb737c6" [label=slope_peak_exercise]
-	"21af46ae-1c6d-4e1a-a438-58b71c168497" [label=slope_peak_exercise]
-	"dda7d0ff-9771-4b4d-a9f9-a5ee9b53839f" [label=maximum_heart_rate_achieved]
-	"1dc4ffec-049c-449c-9669-eed4aab07535" [label=maximum_heart_rate_achieved]
-	"d0448ba0-aafd-4d08-a1c9-037c92c29f9c" [label=maximum_heart_rate_achieved]
-	"f41f0c35-565a-4a13-9110-b0d90bfc4105" [label=maximum_heart_rate_achieved]
-	"fb4a810a-5eee-4a8a-bf15-53f5cfd61d0a" [label=resting_blood_pressure]
-	"46790a0b-b184-4e25-93d7-864308b6dd10" [label=resting_blood_pressure]
-	"aa6d98d9-42aa-4724-8daa-d0073343c6db" [label=exercise_induced_angina]
-	"d05b55ab-7f82-49f7-a8ba-e6c1895a07d6" [label=exercise_induced_angina]
-	"60236da1-7135-4512-b4ab-5a8991a58fb3" [label=serum_cholesterol]
-	"40bfee7e-e652-4d1d-addb-ea9b0be849ad" [label=serum_cholesterol]
-	"afa33ac3-62d9-4ae6-9f4b-b20df18a3868" [label=slope_peak_exercise]
-	"11e75096-0fb9-4d35-b0ec-317310def6c7" [label=slope_peak_exercise]
-	"9da6becc-e972-44b5-8e6f-6bafab6432da" [label=slope_peak_exercise]
-	"f21d009c-41d4-4273-ac7d-912db3ad0a94" [label=maximum_heart_rate_achieved]
-	"084561ae-7a2b-404a-b643-2966df1f0ef4" [label=maximum_heart_rate_achieved]
-	"1d78442f-d636-4f7d-86a7-ce0f095f380b" [label=exercise_induced_angina]
-	"057bc78e-6fdc-4cbb-a726-a82a1adb010d" [label=exercise_induced_angina]
-	"18df0224-aa0b-4589-9701-c69b32e62716" [label=exercise_induced_angina]
-	"a4e23bef-2c1b-4ada-b1d9-c0cbf2d47158" [label=exercise_induced_angina]
-	"9ede922d-e07b-453c-a1ed-f5e630de43ce" [label=maximum_heart_rate_achieved]
-	"b249172a-bcac-4df1-b26f-b74d532a0713" [label=maximum_heart_rate_achieved]
-	"fa01dcd0-8690-4f52-87b4-942798ddf08c" [label=age]
-	"f1ddf183-d86a-4a43-a62d-3e5cb9834aa9" [label=age]
-	"f6f72d97-2ec0-47a7-b7da-62f59f372c14" [label=age]
-	"678ec3dc-7546-454c-96d6-2f5bddeb1b41" [label=age]
-	"4e1800f3-13fe-4f4e-a938-f424cf16e8bf" [label=exercise_induced_angina]
-	"7d7acefa-b8c8-4dad-92ff-0dcfaac4ce5f" [label=exercise_induced_angina]
-	"667a44db-386e-4a98-b550-5323f4d64b32" [label=exercise_induced_angina]
-	"a992fff5-1829-4e3b-adb7-7b7e1494a79b" [label=exercise_induced_angina]
-	"94a2351d-b993-4acd-bbf7-d1dfea795bd0" [label=exercise_induced_angina]
-	"aaca6ff6-8b43-422e-87f2-43d9fd5eed31" [label=number_of_major_vessels]
-	"4cf4987e-b48a-4fa9-b064-0e837bb6a413" [label=number_of_major_vessels]
-	"eb4beedb-b19a-459e-bfe7-241fe8060d3f" [label=age]
-	"4860636c-4104-40f7-916b-d16b4ce4d20c" [label=age]
-	"2e33a798-90f4-4e8d-9553-1766c5379745" [label=maximum_heart_rate_achieved]
-	"50cb6793-6f84-48ab-882a-ef02756b383e" [label=maximum_heart_rate_achieved]
-		"42b9e992-4f9d-40f6-8dae-af64dc04eef9" -> "0e9b5d3d-d16d-4bd3-9707-ac2c134885cc" [label="SS(B)" constraint=true]
-		"42b9e992-4f9d-40f6-8dae-af64dc04eef9" -> "bcc4eeac-3a1b-4f83-b93b-338047c8e3f0" [label="SS(B)" constraint=true]
-		"42b9e992-4f9d-40f6-8dae-af64dc04eef9" -> "48105109-3b21-4dee-aa0d-1a0b80866157" [label="SS(B)" constraint=true]
-		"42b9e992-4f9d-40f6-8dae-af64dc04eef9" -> "55254658-8d92-4e76-8c82-cab8e83ec0a6" [label="SS(B)" constraint=true]
-		"0e9b5d3d-d16d-4bd3-9707-ac2c134885cc" -> "5d1d112e-d28a-4e2d-a61d-93354acd5970" [label="SS(B)" constraint=true]
-		"0e9b5d3d-d16d-4bd3-9707-ac2c134885cc" -> "4c269fa8-a030-427e-96c7-894d57f507bc" [label="SS(B)" constraint=true]
-		"bcc4eeac-3a1b-4f83-b93b-338047c8e3f0" -> "4aa82b25-fe63-4fd8-b522-5d1e1e2e5886" [label="SS(B)" constraint=true]
-		"bcc4eeac-3a1b-4f83-b93b-338047c8e3f0" -> "7c1243e8-2a49-49cc-8ff5-ad7fb79b5b1f" [label="SS(B)" constraint=true]
-		"48105109-3b21-4dee-aa0d-1a0b80866157" -> "2b5eb540-c014-46a2-b240-f081b9f93f48" [label="SS(B)" constraint=true]
-		"48105109-3b21-4dee-aa0d-1a0b80866157" -> "63e870bb-49c4-43df-a84f-4a1d6ee6e5b8" [label="SS(B)" constraint=true]
-		"55254658-8d92-4e76-8c82-cab8e83ec0a6" -> "c54bd5c0-ee73-4431-aca2-7568b3e5724f" [label="SS(B)" constraint=true]
-		"55254658-8d92-4e76-8c82-cab8e83ec0a6" -> "1ed16e97-77ee-408c-a188-275bd44ec843" [label="SS(B)" constraint=true]
-		"e3631ca6-0c91-4681-9db4-a857004c890c" -> "2ef8dd14-a9e3-4b80-b174-e9790659663c" [label="SS(B)" constraint=true]
-		"e3631ca6-0c91-4681-9db4-a857004c890c" -> "6762e826-6cc7-4fbc-ac75-1814255217c8" [label="SS(B)" constraint=true]
-		"e6a38367-9556-48c8-9417-4ce39ffab59c" -> "39e4f5f4-23e7-45aa-bcc5-eea6daced490" [label="SS(B)" constraint=true]
-		"e6a38367-9556-48c8-9417-4ce39ffab59c" -> "0ebd75e1-6dc0-470e-a2e3-8a59af1d9536" [label="SS(B)" constraint=true]
-		"881f1815-74ea-43fc-8826-0f7fb0149862" -> "e3631ca6-0c91-4681-9db4-a857004c890c" [label="SS(B)" constraint=true]
-		"881f1815-74ea-43fc-8826-0f7fb0149862" -> "e6a38367-9556-48c8-9417-4ce39ffab59c" [label="SS(B)" constraint=true]
-		"f7db5371-4e13-49e8-874f-89fa2220a614" -> "69919cbd-e8ae-47df-b3ab-be306be058d6" [label="SS(B)" constraint=true]
-		"f7db5371-4e13-49e8-874f-89fa2220a614" -> "e629840f-1329-4f79-bfde-b2587b05ec2e" [label="SS(B)" constraint=true]
-		"2d1b2a4a-f7bb-485f-83e8-678eca6c70b6" -> "944a3c31-c1e8-40fb-a6f4-fe5d2973e545" [label="SS(B)" constraint=true]
-		"2d1b2a4a-f7bb-485f-83e8-678eca6c70b6" -> "b5d98cf5-7c6f-4d8f-a6f3-6986b1857c9c" [label="SS(B)" constraint=true]
-		"c453792c-e723-42ec-bf48-5ee2911532b1" -> "c9c7a354-ac9f-4562-aab5-3dfee96946bd" [label="SS(B)" constraint=true]
-		"c453792c-e723-42ec-bf48-5ee2911532b1" -> "c00cb5a3-50e2-4290-9e17-de98937c97fb" [label="SS(B)" constraint=true]
-		"bdc25f71-bdc1-4779-bcb0-9aa207041d7b" -> "5c39d8c9-b185-48e2-a654-4e01ab6b3bae" [label="SS(B)" constraint=true]
-		"bdc25f71-bdc1-4779-bcb0-9aa207041d7b" -> "ef1cd107-36cc-4ff0-81c8-be091c2305af" [label="SS(B)" constraint=true]
-		"fe305300-c7bf-424d-9455-e626cf05ea53" -> "f7db5371-4e13-49e8-874f-89fa2220a614" [label="SS(B)" constraint=true]
-		"fe305300-c7bf-424d-9455-e626cf05ea53" -> "2d1b2a4a-f7bb-485f-83e8-678eca6c70b6" [label="SS(B)" constraint=true]
-		"fe305300-c7bf-424d-9455-e626cf05ea53" -> "c453792c-e723-42ec-bf48-5ee2911532b1" [label="SS(B)" constraint=true]
-		"fe305300-c7bf-424d-9455-e626cf05ea53" -> "bdc25f71-bdc1-4779-bcb0-9aa207041d7b" [label="SS(B)" constraint=true]
-		"5d1d112e-d28a-4e2d-a61d-93354acd5970" -> "63d8edfb-f07d-4091-909a-20c2779da9d2" [label="SS(B)" constraint=true]
-		"5d1d112e-d28a-4e2d-a61d-93354acd5970" -> "83ff559f-d2e4-4883-b0a1-11f44b8eec3e" [label="SS(B)" constraint=true]
-		"4c269fa8-a030-427e-96c7-894d57f507bc" -> "f92a1891-feca-4e68-b10c-9d7888607c77" [label="SS(B)" constraint=true]
-		"4c269fa8-a030-427e-96c7-894d57f507bc" -> "a460b7b7-32c2-45e3-8564-309e2839f5b0" [label="SS(B)" constraint=true]
-		"4aa82b25-fe63-4fd8-b522-5d1e1e2e5886" -> "5e1fadf0-3ec1-4e16-a674-5517ac07d4a3" [label="SS(B)" constraint=true]
-		"4aa82b25-fe63-4fd8-b522-5d1e1e2e5886" -> "53241d40-d9e5-4e59-a642-2d605a2977c5" [label="SS(B)" constraint=true]
-	"58b486ba-c040-47f8-b004-084f4099a6dc"
-		"2b5eb540-c014-46a2-b240-f081b9f93f48" -> "597981cc-832d-4c07-9fe2-d7f133db58a2" [label="SS(B)" constraint=true]
-		"2b5eb540-c014-46a2-b240-f081b9f93f48" -> "c438e451-8def-43bc-bec2-630403d1ec76" [label="SS(B)" constraint=true]
-		"63e870bb-49c4-43df-a84f-4a1d6ee6e5b8" -> "5f909b59-8d78-48b0-bdcf-70d23d7506db" [label="SS(B)" constraint=true]
-		"63e870bb-49c4-43df-a84f-4a1d6ee6e5b8" -> "a94af014-9f75-4649-97b8-2b6a6eb1a4d6" [label="SS(B)" constraint=true]
-		"c54bd5c0-ee73-4431-aca2-7568b3e5724f" -> "f5f38e47-d5b4-42d7-a175-140aa6eecb18" [label="SS(B)" constraint=true]
-		"c54bd5c0-ee73-4431-aca2-7568b3e5724f" -> "025894fd-9da3-46cf-888c-434cb5cdbaa7" [label="SS(B)" constraint=true]
-		"1ed16e97-77ee-408c-a188-275bd44ec843" -> "6ac19a25-8272-4391-a4ed-606e3fb685cd" [label="SS(B)" constraint=true]
-		"1ed16e97-77ee-408c-a188-275bd44ec843" -> "2ccc5ea5-f638-44fe-8c53-cd5db58f4d8b" [label="SS(B)" constraint=true]
-	"5442148d-0f11-41be-bdc4-99785a7bf459"
-		"6762e826-6cc7-4fbc-ac75-1814255217c8" -> "d40eae11-b5ce-47ed-93bb-537ff9178593" [label="SS(B)" constraint=true]
-		"6762e826-6cc7-4fbc-ac75-1814255217c8" -> "f9eae0c6-fb34-4519-8b4d-4390ecd9448f" [label="SS(B)" constraint=true]
-		"39e4f5f4-23e7-45aa-bcc5-eea6daced490" -> "06fbbe27-2fab-4674-8f74-98932574063a" [label="SS(B)" constraint=true]
-		"0ebd75e1-6dc0-470e-a2e3-8a59af1d9536" -> "407cc0cc-a07f-453c-ba89-596ed0e768f1" [label="SS(B)" constraint=true]
-		"0ebd75e1-6dc0-470e-a2e3-8a59af1d9536" -> "d8ca3bd7-0019-4618-90d6-c453c07edb51" [label="SS(B)" constraint=true]
-		"69919cbd-e8ae-47df-b3ab-be306be058d6" -> "0bb51b79-9c65-462c-a42c-f7556f2d92ae" [label="SS(B)" constraint=true]
-		"69919cbd-e8ae-47df-b3ab-be306be058d6" -> "05fb05f2-56af-41c8-aa6e-f9de73cd6d03" [label="SS(B)" constraint=true]
-	"a01b878d-096e-4f61-b1d9-97717ef22749"
-		"944a3c31-c1e8-40fb-a6f4-fe5d2973e545" -> "ec998667-4b27-485f-89fc-0b706446e9bd" [label="SS(B)" constraint=true]
-		"944a3c31-c1e8-40fb-a6f4-fe5d2973e545" -> "95097455-ca63-4f21-a3c0-767f047263d5" [label="SS(B)" constraint=true]
-		"b5d98cf5-7c6f-4d8f-a6f3-6986b1857c9c" -> "4f178922-7b80-4588-a434-95669590ab70" [label="SS(B)" constraint=true]
-		"c9c7a354-ac9f-4562-aab5-3dfee96946bd" -> "97f82b60-3750-4492-a6ff-427e16f25d08" [label="SS(B)" constraint=true]
-		"c9c7a354-ac9f-4562-aab5-3dfee96946bd" -> "d4434c04-57c7-4386-9e58-5fce8d2d2650" [label="SS(B)" constraint=true]
-		"c9c7a354-ac9f-4562-aab5-3dfee96946bd" -> "f4c101e0-601a-4e17-afa6-a2d665795a1e" [label="SS(B)" constraint=true]
-		"c00cb5a3-50e2-4290-9e17-de98937c97fb" -> "baeda233-bfab-4a77-accd-6654a2e23d73" [label="SS(B)" constraint=true]
-		"c00cb5a3-50e2-4290-9e17-de98937c97fb" -> "7e348544-1f07-4e2f-901f-354013621308" [label="SS(B)" constraint=true]
-		"5c39d8c9-b185-48e2-a654-4e01ab6b3bae" -> "aad8773c-a650-454a-9f43-112ec5b3219b" [label="SS(B)" constraint=true]
-		"5c39d8c9-b185-48e2-a654-4e01ab6b3bae" -> "458cbf16-5db3-4ecc-bbf2-b3b3f0b6a0be" [label="SS(B)" constraint=true]
-		"ef1cd107-36cc-4ff0-81c8-be091c2305af" -> "bf70ee93-8a1f-4bcc-90c0-6b38729814e3" [label="SS(B)" constraint=true]
-		"ef1cd107-36cc-4ff0-81c8-be091c2305af" -> "c203d4e2-4767-4f53-9c66-6f5badfeb361" [label="SS(B)" constraint=true]
-		"63d8edfb-f07d-4091-909a-20c2779da9d2" -> "edee0ae8-cbbb-4237-ba88-14da04d7147e" [label="SS(B)" constraint=true]
-		"63d8edfb-f07d-4091-909a-20c2779da9d2" -> "b6a950c3-b09a-43dd-b8bc-900ba5710e5a" [label="SS(B)" constraint=true]
-		"83ff559f-d2e4-4883-b0a1-11f44b8eec3e" -> "4c6a85b7-f49a-41be-a17f-6b2d740354ad" [label="SS(B)" constraint=true]
-		"83ff559f-d2e4-4883-b0a1-11f44b8eec3e" -> "3181d5ad-110e-4052-9637-0e3da2fcae14" [label="SS(B)" constraint=true]
-	"33540ffb-e5dd-4d0a-a9ae-495d4944a8f9"
-		"a460b7b7-32c2-45e3-8564-309e2839f5b0" -> "58db798f-276b-46f1-b478-f37bcf24c4aa" [label="SS(B)" constraint=true]
-		"5e1fadf0-3ec1-4e16-a674-5517ac07d4a3" -> "b365b46b-e2d2-4285-b24e-0c95c281fc1d" [label="SS(B)" constraint=true]
-		"5e1fadf0-3ec1-4e16-a674-5517ac07d4a3" -> "c1d695eb-6d74-4501-b393-93fc1d2b570b" [label="SS(B)" constraint=true]
-		"53241d40-d9e5-4e59-a642-2d605a2977c5" -> "4c3c082d-f6e5-4c0b-9535-6bfe9b614c33" [label="SS(B)" constraint=true]
-		"53241d40-d9e5-4e59-a642-2d605a2977c5" -> "d59fbc63-7553-446f-9098-def30a0c7c65" [label="SS(B)" constraint=true]
-	"6ebcac17-ca6a-4856-b814-463487a7a3e9"
-		"c438e451-8def-43bc-bec2-630403d1ec76" -> "b36c394c-6f9f-4b66-a6f8-e9d6b53bcda0" [label="SS(B)" constraint=true]
-		"c438e451-8def-43bc-bec2-630403d1ec76" -> "1ca822f6-7713-4407-9b86-7690b48cb078" [label="SS(B)" constraint=true]
-	"32c3c748-a0e7-4ef8-a484-962eaa536971"
-	"a434d95b-b37e-422b-8ee1-102d12c737cc"
-		"f5f38e47-d5b4-42d7-a175-140aa6eecb18" -> "6b099383-6dba-4046-95ba-8be230a1ef6c" [label="SS(B)" constraint=true]
-		"f5f38e47-d5b4-42d7-a175-140aa6eecb18" -> "3d05c5a6-a9c0-4245-93f0-c3972e243c50" [label="SS(B)" constraint=true]
-		"025894fd-9da3-46cf-888c-434cb5cdbaa7" -> "8d91e329-da02-4f11-9ee6-5b5a37512219" [label="SS(B)" constraint=true]
-		"025894fd-9da3-46cf-888c-434cb5cdbaa7" -> "9caba015-d60a-4024-ae8a-e524ba7b1c91" [label="SS(B)" constraint=true]
-		"6ac19a25-8272-4391-a4ed-606e3fb685cd" -> "736429f1-3fe5-4220-a512-dbaef15e444f" [label="SS(B)" constraint=true]
-		"6ac19a25-8272-4391-a4ed-606e3fb685cd" -> "f6f43416-3f99-44cf-aedc-343d0cb737c6" [label="SS(B)" constraint=true]
-		"6ac19a25-8272-4391-a4ed-606e3fb685cd" -> "21af46ae-1c6d-4e1a-a438-58b71c168497" [label="SS(B)" constraint=true]
-	"42a297db-57b1-4dd9-90c0-ecc679532bff"
-	"3299b83e-b831-4931-bc29-985a53a246fd"
-	"597acec6-07ee-41c9-a2ba-878aec079ca4"
-	"4ea602bc-a230-49e1-a8bf-7dfb57ac4bd8"
-	"2ade2dba-77c7-47fd-8d15-ecc28ba65665"
-	"d7523f3e-7acd-4a87-aa71-6321838e7757"
-	"a69a2102-d240-458c-9a33-e942651e5c29"
-		"05fb05f2-56af-41c8-aa6e-f9de73cd6d03" -> "dda7d0ff-9771-4b4d-a9f9-a5ee9b53839f" [label="SS(B)" constraint=true]
-		"05fb05f2-56af-41c8-aa6e-f9de73cd6d03" -> "1dc4ffec-049c-449c-9669-eed4aab07535" [label="SS(B)" constraint=true]
-		"ec998667-4b27-485f-89fc-0b706446e9bd" -> "d0448ba0-aafd-4d08-a1c9-037c92c29f9c" [label="SS(B)" constraint=true]
-		"ec998667-4b27-485f-89fc-0b706446e9bd" -> "f41f0c35-565a-4a13-9110-b0d90bfc4105" [label="SS(B)" constraint=true]
-	"d62ba9b0-e711-40e1-9c5f-3bf0eede8362"
-	"6f1869e6-6f54-444c-bf4b-0669ffbb0e16"
-	"0f0a26a7-39b6-4b17-a064-99778d6bea25"
-		"d4434c04-57c7-4386-9e58-5fce8d2d2650" -> "fb4a810a-5eee-4a8a-bf15-53f5cfd61d0a" [label="SS(B)" constraint=true]
-		"d4434c04-57c7-4386-9e58-5fce8d2d2650" -> "46790a0b-b184-4e25-93d7-864308b6dd10" [label="SS(B)" constraint=true]
-	"9740ff6d-1577-491c-89e6-50de08799c99"
-	"e2ec9a8a-a602-45f7-9446-a7ad186bd6ce"
-	"4f64ef42-4d5b-42fe-9c4a-5aba63e0c96b"
-		"aad8773c-a650-454a-9f43-112ec5b3219b" -> "aa6d98d9-42aa-4724-8daa-d0073343c6db" [label="SS(B)" constraint=true]
-		"aad8773c-a650-454a-9f43-112ec5b3219b" -> "d05b55ab-7f82-49f7-a8ba-e6c1895a07d6" [label="SS(B)" constraint=true]
-		"458cbf16-5db3-4ecc-bbf2-b3b3f0b6a0be" -> "60236da1-7135-4512-b4ab-5a8991a58fb3" [label="SS(B)" constraint=true]
-		"458cbf16-5db3-4ecc-bbf2-b3b3f0b6a0be" -> "40bfee7e-e652-4d1d-addb-ea9b0be849ad" [label="SS(B)" constraint=true]
-	"0deffe22-f324-437b-b34b-3e44758a84b4"
-	"577109d7-acc5-44ff-8889-d37ab2246fbf"
-	"5f9959e6-dff6-42d1-938b-968fabb17a51"
-	"f59eae60-d316-4c72-abf0-e108941c0176"
-	"9aae7e6c-d97d-4ca8-97a4-d66db357cb83"
-	"b79d3368-043c-44c8-b51a-3be7e49c615f"
-	"bd00e5cc-d228-45aa-abec-b1b1d845a7ea"
-	"4eb2349c-0a34-4aa3-ad3d-5f3139f626d8"
-	"436b7f33-f98b-4bfe-b68b-e5f3129e83c6"
-	"e06da514-d675-4f07-94c3-a030f850358a"
-	"72c1408a-93f4-490b-b90a-0145cfd0a137"
-		"b36c394c-6f9f-4b66-a6f8-e9d6b53bcda0" -> "afa33ac3-62d9-4ae6-9f4b-b20df18a3868" [label="SS(B)" constraint=true]
-		"b36c394c-6f9f-4b66-a6f8-e9d6b53bcda0" -> "11e75096-0fb9-4d35-b0ec-317310def6c7" [label="SS(B)" constraint=true]
-		"b36c394c-6f9f-4b66-a6f8-e9d6b53bcda0" -> "9da6becc-e972-44b5-8e6f-6bafab6432da" [label="SS(B)" constraint=true]
-		"1ca822f6-7713-4407-9b86-7690b48cb078" -> "f21d009c-41d4-4273-ac7d-912db3ad0a94" [label="SS(B)" constraint=true]
-		"1ca822f6-7713-4407-9b86-7690b48cb078" -> "084561ae-7a2b-404a-b643-2966df1f0ef4" [label="SS(B)" constraint=true]
-		"6b099383-6dba-4046-95ba-8be230a1ef6c" -> "1d78442f-d636-4f7d-86a7-ce0f095f380b" [label="SS(B)" constraint=true]
-		"6b099383-6dba-4046-95ba-8be230a1ef6c" -> "057bc78e-6fdc-4cbb-a726-a82a1adb010d" [label="SS(B)" constraint=true]
-		"3d05c5a6-a9c0-4245-93f0-c3972e243c50" -> "18df0224-aa0b-4589-9701-c69b32e62716" [label="SS(B)" constraint=true]
-		"3d05c5a6-a9c0-4245-93f0-c3972e243c50" -> "a4e23bef-2c1b-4ada-b1d9-c0cbf2d47158" [label="SS(B)" constraint=true]
-		"8d91e329-da02-4f11-9ee6-5b5a37512219" -> "9ede922d-e07b-453c-a1ed-f5e630de43ce" [label="SS(B)" constraint=true]
-		"8d91e329-da02-4f11-9ee6-5b5a37512219" -> "b249172a-bcac-4df1-b26f-b74d532a0713" [label="SS(B)" constraint=true]
-		"9caba015-d60a-4024-ae8a-e524ba7b1c91" -> "fa01dcd0-8690-4f52-87b4-942798ddf08c" [label="SS(B)" constraint=true]
-		"9caba015-d60a-4024-ae8a-e524ba7b1c91" -> "f1ddf183-d86a-4a43-a62d-3e5cb9834aa9" [label="SS(B)" constraint=true]
-	"5629958f-5499-49e4-a344-d644ce9fced5"
-		"f6f43416-3f99-44cf-aedc-343d0cb737c6" -> "f6f72d97-2ec0-47a7-b7da-62f59f372c14" [label="SS(B)" constraint=true]
-		"f6f43416-3f99-44cf-aedc-343d0cb737c6" -> "678ec3dc-7546-454c-96d6-2f5bddeb1b41" [label="SS(B)" constraint=true]
-	"7592961f-5a85-4505-a337-a980a03a4608"
-	"77fcd6e0-7c1c-4b8e-bdf0-f0c0e22128ac"
-		"1dc4ffec-049c-449c-9669-eed4aab07535" -> "4e1800f3-13fe-4f4e-a938-f424cf16e8bf" [label="SS(B)" constraint=true]
-		"1dc4ffec-049c-449c-9669-eed4aab07535" -> "7d7acefa-b8c8-4dad-92ff-0dcfaac4ce5f" [label="SS(B)" constraint=true]
-	"d11e0ffa-0928-4430-a034-59bb041f389a"
-		"f41f0c35-565a-4a13-9110-b0d90bfc4105" -> "667a44db-386e-4a98-b550-5323f4d64b32" [label="SS(B)" constraint=true]
-		"fb4a810a-5eee-4a8a-bf15-53f5cfd61d0a" -> "a992fff5-1829-4e3b-adb7-7b7e1494a79b" [label="SS(B)" constraint=true]
-		"fb4a810a-5eee-4a8a-bf15-53f5cfd61d0a" -> "94a2351d-b993-4acd-bbf7-d1dfea795bd0" [label="SS(B)" constraint=true]
-		"46790a0b-b184-4e25-93d7-864308b6dd10" -> "aaca6ff6-8b43-422e-87f2-43d9fd5eed31" [label="SS(B)" constraint=true]
-		"46790a0b-b184-4e25-93d7-864308b6dd10" -> "4cf4987e-b48a-4fa9-b064-0e837bb6a413" [label="SS(B)" constraint=true]
-	"1303bbd9-a927-4feb-bc30-23bae916c928"
-	"053aa281-d8ec-4318-9a8c-ca9d22c1ae95"
-		"60236da1-7135-4512-b4ab-5a8991a58fb3" -> "eb4beedb-b19a-459e-bfe7-241fe8060d3f" [label="SS(B)" constraint=true]
-		"60236da1-7135-4512-b4ab-5a8991a58fb3" -> "4860636c-4104-40f7-916b-d16b4ce4d20c" [label="SS(B)" constraint=true]
-		"40bfee7e-e652-4d1d-addb-ea9b0be849ad" -> "2e33a798-90f4-4e8d-9553-1766c5379745" [label="SS(B)" constraint=true]
-		"40bfee7e-e652-4d1d-addb-ea9b0be849ad" -> "50cb6793-6f84-48ab-882a-ef02756b383e" [label="SS(B)" constraint=true]
-	"9f0aa785-1062-4c49-9861-f6dc7d5e5b1b"
-	"5af9efbf-0fb1-4c2b-aea9-35497537a9a3"
-	"f3e5d75d-740e-4e9b-a83a-5c96041f6f47"
-	"0f701a43-9df1-45e6-9f83-9b72e3910733"
-	"f9408650-04df-44d5-b1ee-2241ef5a1951"
-	"a634bd49-1a14-488b-84dd-b7c05cb8fdbe"
-	"11675cb1-6610-4fcf-b5d7-e7a339ce1161"
-	"d6be15cc-ae73-48ed-80f7-7fe12202889e"
-	"f467091c-aeb2-431e-8345-35755435871f"
-	"be6387e5-4b7e-406d-a146-ef8db62de76e"
-	"f0e6395f-8568-4001-a8e1-f4ccd6a16175"
-	"43772005-70b6-40f0-9b4a-e0fb98fc9f0f"
-	"b4f754bf-2a86-44c2-876e-e2bddb35f398"
-	"e9e09bb6-8eff-49a1-b075-9e8c24076882"
-	"f86b6ce0-7e52-4b97-9278-fb922d5e6d4a"
-	"4d56e7f1-fa87-4d48-9ffe-6e8063d832ab"
-	"3d77eb9b-85fb-493a-b2b3-a2dbc6a96788"
-	"2b1d76eb-60d8-47a7-a1c7-bf157ba96409"
-	"28c2934b-cec2-4d1f-80e0-7eb4e0143cf2"
-	"4cc40094-2a0a-4a3f-9197-784fdda31129"
-	"3d731676-f714-4fc4-8bb8-e4edc1393e11"
-	"a8b65269-1437-42d2-b0b4-9652dd845e52"
-	"41ca5404-88f1-4b76-a352-90df29232cdb"
-	"d1cf4d8b-f01e-4d76-b1c4-c15a1ca64112"
-	"b1f2580a-1c5f-4d3e-83fc-97e9f1325c96"
-	"3755901d-196a-4bfa-b274-315aa701579e"
+	"c791b64a-ffa7-4f8d-bc83-f4e7b7d10822" [label="thal = 3.0
+# = 152"]
+	"1a68bd39-2408-4e20-b849-fb2fc2386250" [label="chest_pain_type = 1.0
+# = 12"]
+	"f83f117d-ed92-4346-a36a-aff19d2d0b9f" [label="chest_pain_type = 2.0
+# = 33"]
+	"3ab942e7-cd74-48c5-846a-2feebee31fec" [label="chest_pain_type = 3.0
+# = 56"]
+	"cdd2b8d6-2947-4aae-b222-f57e28d1df6b" [label="chest_pain_type = 4.0
+# = 51"]
+	"526d82bd-25c6-4d76-95f3-57d149de5b1c" [label="0.0 <= number_of_major_vessels <= 0.0
+# = 7"]
+	"1ea00df7-6ce6-4a06-950f-dcd28e1fdbe8" [label="1.0 <= number_of_major_vessels <= 3.0
+# = 7"]
+	"98ec3983-8569-48a9-b7b4-e82ad2cb62ef" [label="thal = 6.0
+# = 14"]
+	"e56421bb-d5ce-40cc-aecf-54c7835042a3" [label="chest_pain_type = 1.0
+# = 6"]
+	"e06cf3dc-5ae9-499b-a746-c2027387f91b" [label="chest_pain_type = 2.0
+# = 7"]
+	"8ba0731b-7564-43c4-977f-a16138d1be26" [label="chest_pain_type = 3.0
+# = 21"]
+	"5e00abfb-6cb4-4ab4-adcb-b4c99097172e" [label="chest_pain_type = 4.0
+# = 70"]
+	"478f6a52-39de-4720-9860-3caf21e6e105" [label="thal = 7.0
+# = 104"]
+	"b389e6e5-c95f-412b-8e7a-422b144d4f72" [label="182.0 <= serum_cholesterol <= 244.0
+# = 9"]
+	"741468af-53b6-4333-8d2e-516cf7c8f406" [label="273.0 <= serum_cholesterol <= 283.0
+# = 3"]
+	"b44b5197-9220-4a17-a825-5c96d1274d8e" [label="0.0 <= oldpeak <= 1.4
+# = 32"]
+	"044034b4-ca1d-4264-9851-8e0311487d80" [label="1.8 <= oldpeak <= 1.8
+# = 1"]
+	"f2356091-ef70-42f1-b1af-e513707af859" [label="96.0 <= maximum_heart_rate_achieved <= 158.0
+# = 27"]
+	"628b89bd-4dfd-4498-b370-d404abcc5d88" [label="160.0 <= maximum_heart_rate_achieved <= 187.0
+# = 29"]
+	"14aabb8e-ac0b-404a-a4fb-dc22dbe9dbcc" [label="0.0 <= number_of_major_vessels <= 0.0
+# = 31"]
+	"2218b7b8-b9db-402c-9518-0f7fb35355e3" [label="1.0 <= number_of_major_vessels <= 3.0
+# = 20"]
+	"93497e59-0b08-47bc-9a46-08135f7a7792" [label="125.0 <= maximum_heart_rate_achieved <= 125.0
+# = 1"]
+	"edb38c8f-9f6c-4ffa-baff-06c3a3af0d9f" [label="126.0 <= maximum_heart_rate_achieved <= 190.0
+# = 6"]
+	"17473a36-5f94-4e46-b14c-4d4a0112b0a9" [label="105.0 <= maximum_heart_rate_achieved <= 112.0
+# = 2"]
+	"6f4ef7f9-44fd-4d72-bf57-795b81071532" [label="120.0 <= maximum_heart_rate_achieved <= 158.0
+# = 5"]
+	"770ce781-0c75-4f3e-b059-65fdb82c54b7" [label="145.0 <= maximum_heart_rate_achieved <= 178.0
+# = 5"]
+	"17c48644-873d-444c-ab80-9ee35631a4b4" [label="182.0 <= maximum_heart_rate_achieved <= 182.0
+# = 1"]
+	"9b3a60dd-388f-48b4-a4ea-f054f6c56572" [label="0.0 <= oldpeak <= 0.0
+# = 4"]
+	"559b9c47-226f-4242-ac48-acc92e885740" [label="0.3 <= oldpeak <= 1.4
+# = 3"]
+	"6df57358-fb08-4561-a1e1-e5521f4c6d74" [label="0.0 <= oldpeak <= 1.8
+# = 16"]
+	"5e4e0cb1-706c-4097-81b3-09ddc7b2dcef" [label="2.0 <= oldpeak <= 3.2
+# = 5"]
+	"e69394df-7c17-464c-945e-d0fbe4bcbb6a" [label="0.0 <= oldpeak <= 0.5
+# = 18"]
+	"d6647b80-24e0-423f-ab42-7b470079e838" [label="0.8 <= oldpeak <= 6.2
+# = 52"]
+	"b676f134-74d8-4f27-9430-c5718a945e11" [label="0.0 <= oldpeak <= 1.8
+# = 7"]
+	"a65e50a7-8af5-4416-9016-76e402206da7" [label="2.6 <= oldpeak <= 2.6
+# = 2"]
+	"1a5d5c42-c680-4906-8848-de1750857008" [label="58.0 <= age <= 58.0
+# = 1"]
+	"974f513e-e2c5-4cc9-8b6b-b9224e62c885" [label="59.0 <= age <= 65.0
+# = 2"]
+	"e87400ca-d911-4451-8077-b92a0586e15c" [label="160.0 <= serum_cholesterol <= 308.0
+# = 30"]
+	"664d0d80-e8ba-42c9-a129-4d42893f7e80" [label="319.0 <= serum_cholesterol <= 325.0
+# = 2"]
+	"a4eedea3-1b2e-4fe7-82d6-6c951474dfb4" [label="sex = 0.0
+# = 14"]
+	"c4b710b6-d740-4f49-9d38-7dd8abf65d04" [label="sex = 1.0
+# = 13"]
+	"bb98b437-35ca-4efd-ac6e-e9b28e1f3e4e" [label="exercise_induced_angina = 0.0
+# = 26"]
+	"129a8866-127d-4fdd-9a58-4287faff3320" [label="exercise_induced_angina = 1.0
+# = 3"]
+	"52f49ac9-dd5e-4c4e-a8fa-a8d16cb49bc6" [label="35.0 <= age <= 54.0
+# = 17"]
+	"3a1ce844-eb66-46f3-823a-be9a3333531b" [label="55.0 <= age <= 71.0
+# = 14"]
+	"8dd13676-55f3-4b12-9f9c-478016f01e76" [label="sex = 0.0
+# = 6"]
+	"d37e42bc-a257-4eb5-85fd-0369086a56a8" [label="sex = 1.0
+# = 14"]
+	"7ad577a8-794a-48bf-b9dc-b41c138d3c18" [label="exercise_induced_angina = 0.0
+# = 5"]
+	"a0cbc405-e4d9-4fdc-9330-0747ab04f18d" [label="exercise_induced_angina = 1.0
+# = 1"]
+	"57eddbe4-2058-469e-8669-f8621d29da8a" [label="exercise_induced_angina = 1.0
+# = 2"]
+	"a829c99c-2f94-4240-9dda-5134355cfeb4" [label="exercise_induced_angina = 0.0
+# = 3"]
+	"2c1a2305-8462-48dc-8deb-35f5098386d4" [label="exercise_induced_angina = 1.0
+# = 2"]
+	"2ae362af-ebdf-4c4f-94a0-3bdab1d9a53e" [label="0.2 <= oldpeak <= 0.2
+# = 1"]
+	"417088e2-9294-49b0-b315-f0f6f076f1bf" [label="1.2 <= oldpeak <= 4.2
+# = 4"]
+	"2eafddc0-12c1-4403-afbd-ac923e477dda" [label="101.0 <= resting_blood_pressure <= 120.0
+# = 3"]
+	"50f088e8-e899-456e-90b2-b9562282736c" [label="192.0 <= resting_blood_pressure <= 192.0
+# = 1"]
+	"fbb44e0f-a684-4e05-8e4c-e43ef59b2f6f" [label="exercise_induced_angina = 0.0
+# = 3"]
+	"c61713d4-478d-4906-a01a-9e378d147088" [label="slope_peak_exercise = 1.0
+# = 6"]
+	"b288bf90-b2ef-49ac-9830-c89f35c40bb5" [label="slope_peak_exercise = 2.0
+# = 9"]
+	"d16f71cb-08b6-48a3-806a-a082971ab8a7" [label="slope_peak_exercise = 3.0
+# = 1"]
+	"a64d974c-5418-490a-a8de-6d4b33b9ab40" [label="exercise_induced_angina = 0.0
+# = 4"]
+	"497a004a-222c-4b7e-953c-f289d04f15ca" [label="exercise_induced_angina = 1.0
+# = 1"]
+	"15b7ed21-04fb-4435-a2f5-3ecd8b5094e0" [label="105.0 <= maximum_heart_rate_achieved <= 140.0
+# = 3"]
+	"0ecf993b-216c-4236-af7d-8312be3e20e0" [label="147.0 <= maximum_heart_rate_achieved <= 181.0
+# = 15"]
+	"d8097588-8f06-4421-b7cc-5ffaa9c6ecfd" [label="exercise_induced_angina = 0.0
+# = 14"]
+	"03815d82-689e-45ab-9716-7011673e143b" [label="exercise_induced_angina = 1.0
+# = 38"]
+	"74be4393-39d1-4025-a7ee-0ad5fec2f2de" [label="exercise_induced_angina = 0.0
+# = 5"]
+	"c5b8ace6-87e8-4017-91a7-d92126a007da" [label="exercise_induced_angina = 1.0
+# = 2"]
+	"1ea7a707-c694-4d4b-b75e-298963377a44" [label="134.0 <= resting_blood_pressure <= 134.0
+# = 1"]
+	"e8133f57-14ad-4f41-ab50-ab0fde4abdbb" [label="150.0 <= resting_blood_pressure <= 150.0
+# = 1"]
+	"834f3839-14cc-48ed-b881-e8b10255e9c3" [label="exercise_induced_angina = 0.0
+# = 2"]
+	"c930b654-0eb3-4b90-89e5-29f578af8855" [label="exercise_induced_angina = 0.0
+# = 27"]
+	"82d9485c-a06b-45c7-8c9e-4076e89f2a16" [label="exercise_induced_angina = 1.0
+# = 3"]
+	"51d80ccd-7d74-4c01-8c31-32c0724c728c" [label="120.0 <= resting_blood_pressure <= 120.0
+# = 1"]
+	"1eb60b9f-3a9d-43e4-8a38-7e3755f73e9e" [label="136.0 <= resting_blood_pressure <= 136.0
+# = 1"]
+	"d8c0bc27-f91c-4d83-a28f-807d8c50ce2c" [label="0.0 <= oldpeak <= 1.6
+# = 11"]
+	"a1571390-c5c1-4aab-879c-41b94de736ad" [label="3.0 <= oldpeak <= 3.6
+# = 2"]
+	"2ee1fdea-0214-4cd2-b674-4a103cf70d4c" [label="122.0 <= maximum_heart_rate_achieved <= 159.0
+# = 7"]
+	"e7c7fed8-70d6-4ef3-9459-506f7f4d2e7f" [label="160.0 <= maximum_heart_rate_achieved <= 186.0
+# = 10"]
+	"de7a35e6-2788-46c2-bf8c-2f0560b64e4f" [label="100.0 <= resting_blood_pressure <= 140.0
+# = 9"]
+	"4d2ce907-143a-496d-8f5a-09a1c4e5508b" [label="150.0 <= resting_blood_pressure <= 180.0
+# = 5"]
+	"e6871684-f75d-4cfb-bc3f-895d19c759f6" [label="slope_peak_exercise = 1.0
+# = 2"]
+	"2a8863a1-3e4b-4e4a-8966-6f61cc4afbe7" [label="slope_peak_exercise = 2.0
+# = 3"]
+	"f6aabbfb-62f3-44c5-819a-eb73d55336ea" [label="slope_peak_exercise = 3.0
+# = 1"]
+	"ca437caa-ae51-4d74-a0c1-dd348a8f8248" [label="145.0 <= maximum_heart_rate_achieved <= 145.0
+# = 1"]
+	"14db5f7a-4423-4584-815c-c93fc9ed2d66" [label="162.0 <= maximum_heart_rate_achieved <= 178.0
+# = 3"]
+	"7f769db4-c76a-47a4-b071-0e3e0b5e924a" [label=" <= maximum_heart_rate_achieved <= 
+# = 0"]
+	"91509b18-fbe3-466e-9351-244cc1df04d6" [label="156.0 <= maximum_heart_rate_achieved <= 173.0
+# = 3"]
+	"e6152f09-3a5f-4d88-be69-74dd612d4b1c" [label="105.0 <= resting_blood_pressure <= 120.0
+# = 3"]
+	"eaa85854-aa5e-4bb9-b2c7-ba2995961e7f" [label="125.0 <= resting_blood_pressure <= 180.0
+# = 6"]
+	"308ba088-c582-4f35-82d9-c7c384c1d067" [label="exercise_induced_angina = 0.0
+# = 1"]
+	"351218ee-f119-4cfd-a009-37f7875111d3" [label="exercise_induced_angina = 1.0
+# = 2"]
+	"ac871d95-9566-45a6-af69-9258b5d2928e" [label="172.0 <= serum_cholesterol <= 234.0
+# = 8"]
+	"7e9ae3e6-ad6e-43e0-a8fc-f1cd6d41adf7" [label="254.0 <= serum_cholesterol <= 309.0
+# = 7"]
+	"8bfcf624-aa30-4933-92e1-90ca32a925b5" [label="slope_peak_exercise = 1.0
+# = 7"]
+	"293aeb60-5259-40f0-abf3-208ebd775e7c" [label="slope_peak_exercise = 2.0
+# = 2"]
+	"5a264c47-20f3-4b8b-ba74-bd4dfe3c9ef7" [label="slope_peak_exercise = 3.0
+# = 2"]
+	"be2e9121-5b9f-488f-b563-4afcb9dc1bec" [label=" <= maximum_heart_rate_achieved <= 
+# = 0"]
+	"1e577f4f-3316-478d-93d7-9a1daf8e27eb" [label="147.0 <= maximum_heart_rate_achieved <= 155.0
+# = 2"]
+	"923aebf4-ba87-4cb9-bea2-289b70a2e262" [label="exercise_induced_angina = 0.0
+# = 4"]
+	"303ceb09-88e7-4279-8cfc-258389de4996" [label="exercise_induced_angina = 1.0
+# = 3"]
+	"c119e950-9d35-4d49-bb3b-5c7c73cf1de4" [label="exercise_induced_angina = 0.0
+# = 9"]
+	"484ff79f-7c84-4387-a559-d627da2ef1e6" [label="exercise_induced_angina = 1.0
+# = 1"]
+	"930d3e51-b621-440c-9a01-f418aba6e05d" [label="71.0 <= maximum_heart_rate_achieved <= 71.0
+# = 1"]
+	"0e25721f-9ae4-498e-8b25-b5e8571aee81" [label="122.0 <= maximum_heart_rate_achieved <= 182.0
+# = 8"]
+	"a87f156a-66a8-4a8f-bc74-650e806a929f" [label="55.0 <= age <= 62.0
+# = 4"]
+	"cf8b8db2-7177-480f-a532-1bd599f07251" [label="64.0 <= age <= 64.0
+# = 1"]
+	"1b9dcc34-62f1-42b3-aae7-59084f8ac37e" [label="62.0 <= age <= 63.0
+# = 2"]
+	"8bca853d-9e63-4821-a1ea-47b665f009b8" [label="64.0 <= age <= 64.0
+# = 1"]
+	"d3d7082f-b764-4b66-aabb-fcabe79d8f0a" [label="exercise_induced_angina = 0.0
+# = 2"]
+	"75e7e1cb-1afa-490d-b37f-5b7f0c1ad4ea" [label="exercise_induced_angina = 1.0
+# = 1"]
+	"89130473-3414-488d-a6fb-eb157e1698a4" [label="exercise_induced_angina = 0.0
+# = 3"]
+	"f3c48247-aab7-48ed-9956-80665b105f57" [label="exercise_induced_angina = 0.0
+# = 2"]
+	"85142d8b-7a4e-47a8-9305-df1777e8cb8b" [label="exercise_induced_angina = 1.0
+# = 1"]
+	"cd5ca26c-438d-4754-a974-cacaa4c88221" [label="0.0 <= number_of_major_vessels <= 1.0
+# = 5"]
+	"48e84f27-43f7-405e-a469-125f975646af" [label="3.0 <= number_of_major_vessels <= 3.0
+# = 1"]
+	"1b4d943f-0f77-4bbc-9539-60a22df4b76e" [label="40.0 <= age <= 41.0
+# = 2"]
+	"bf7fd736-1f7a-46ee-8e92-c810ffcf16b7" [label="43.0 <= age <= 59.0
+# = 6"]
+	"7fc63e53-2f39-4785-9254-61b6be8430e5" [label="147.0 <= maximum_heart_rate_achieved <= 156.0
+# = 3"]
+	"bca33604-fac6-4f07-bfa4-e5c795d8bb78" [label="161.0 <= maximum_heart_rate_achieved <= 171.0
+# = 4"]
+		"c791b64a-ffa7-4f8d-bc83-f4e7b7d10822" -> "1a68bd39-2408-4e20-b849-fb2fc2386250" [constraint=true]
+		"c791b64a-ffa7-4f8d-bc83-f4e7b7d10822" -> "f83f117d-ed92-4346-a36a-aff19d2d0b9f" [constraint=true]
+		"c791b64a-ffa7-4f8d-bc83-f4e7b7d10822" -> "3ab942e7-cd74-48c5-846a-2feebee31fec" [constraint=true]
+		"c791b64a-ffa7-4f8d-bc83-f4e7b7d10822" -> "cdd2b8d6-2947-4aae-b222-f57e28d1df6b" [constraint=true]
+		"1a68bd39-2408-4e20-b849-fb2fc2386250" -> "b389e6e5-c95f-412b-8e7a-422b144d4f72" [constraint=true]
+		"1a68bd39-2408-4e20-b849-fb2fc2386250" -> "741468af-53b6-4333-8d2e-516cf7c8f406" [constraint=true]
+		"f83f117d-ed92-4346-a36a-aff19d2d0b9f" -> "b44b5197-9220-4a17-a825-5c96d1274d8e" [constraint=true]
+		"f83f117d-ed92-4346-a36a-aff19d2d0b9f" -> "044034b4-ca1d-4264-9851-8e0311487d80" [constraint=true]
+		"3ab942e7-cd74-48c5-846a-2feebee31fec" -> "f2356091-ef70-42f1-b1af-e513707af859" [constraint=true]
+		"3ab942e7-cd74-48c5-846a-2feebee31fec" -> "628b89bd-4dfd-4498-b370-d404abcc5d88" [constraint=true]
+		"cdd2b8d6-2947-4aae-b222-f57e28d1df6b" -> "14aabb8e-ac0b-404a-a4fb-dc22dbe9dbcc" [constraint=true]
+		"cdd2b8d6-2947-4aae-b222-f57e28d1df6b" -> "2218b7b8-b9db-402c-9518-0f7fb35355e3" [constraint=true]
+		"526d82bd-25c6-4d76-95f3-57d149de5b1c" -> "93497e59-0b08-47bc-9a46-08135f7a7792" [constraint=true]
+		"526d82bd-25c6-4d76-95f3-57d149de5b1c" -> "edb38c8f-9f6c-4ffa-baff-06c3a3af0d9f" [constraint=true]
+		"1ea00df7-6ce6-4a06-950f-dcd28e1fdbe8" -> "17473a36-5f94-4e46-b14c-4d4a0112b0a9" [constraint=true]
+		"1ea00df7-6ce6-4a06-950f-dcd28e1fdbe8" -> "6f4ef7f9-44fd-4d72-bf57-795b81071532" [constraint=true]
+		"98ec3983-8569-48a9-b7b4-e82ad2cb62ef" -> "526d82bd-25c6-4d76-95f3-57d149de5b1c" [constraint=true]
+		"98ec3983-8569-48a9-b7b4-e82ad2cb62ef" -> "1ea00df7-6ce6-4a06-950f-dcd28e1fdbe8" [constraint=true]
+		"e56421bb-d5ce-40cc-aecf-54c7835042a3" -> "770ce781-0c75-4f3e-b059-65fdb82c54b7" [constraint=true]
+		"e56421bb-d5ce-40cc-aecf-54c7835042a3" -> "17c48644-873d-444c-ab80-9ee35631a4b4" [constraint=true]
+		"e06cf3dc-5ae9-499b-a746-c2027387f91b" -> "9b3a60dd-388f-48b4-a4ea-f054f6c56572" [constraint=true]
+		"e06cf3dc-5ae9-499b-a746-c2027387f91b" -> "559b9c47-226f-4242-ac48-acc92e885740" [constraint=true]
+		"8ba0731b-7564-43c4-977f-a16138d1be26" -> "6df57358-fb08-4561-a1e1-e5521f4c6d74" [constraint=true]
+		"8ba0731b-7564-43c4-977f-a16138d1be26" -> "5e4e0cb1-706c-4097-81b3-09ddc7b2dcef" [constraint=true]
+		"5e00abfb-6cb4-4ab4-adcb-b4c99097172e" -> "e69394df-7c17-464c-945e-d0fbe4bcbb6a" [constraint=true]
+		"5e00abfb-6cb4-4ab4-adcb-b4c99097172e" -> "d6647b80-24e0-423f-ab42-7b470079e838" [constraint=true]
+		"478f6a52-39de-4720-9860-3caf21e6e105" -> "e56421bb-d5ce-40cc-aecf-54c7835042a3" [constraint=true]
+		"478f6a52-39de-4720-9860-3caf21e6e105" -> "e06cf3dc-5ae9-499b-a746-c2027387f91b" [constraint=true]
+		"478f6a52-39de-4720-9860-3caf21e6e105" -> "8ba0731b-7564-43c4-977f-a16138d1be26" [constraint=true]
+		"478f6a52-39de-4720-9860-3caf21e6e105" -> "5e00abfb-6cb4-4ab4-adcb-b4c99097172e" [constraint=true]
+		"b389e6e5-c95f-412b-8e7a-422b144d4f72" -> "b676f134-74d8-4f27-9430-c5718a945e11" [constraint=true]
+		"b389e6e5-c95f-412b-8e7a-422b144d4f72" -> "a65e50a7-8af5-4416-9016-76e402206da7" [constraint=true]
+		"741468af-53b6-4333-8d2e-516cf7c8f406" -> "1a5d5c42-c680-4906-8848-de1750857008" [constraint=true]
+		"741468af-53b6-4333-8d2e-516cf7c8f406" -> "974f513e-e2c5-4cc9-8b6b-b9224e62c885" [constraint=true]
+		"b44b5197-9220-4a17-a825-5c96d1274d8e" -> "e87400ca-d911-4451-8077-b92a0586e15c" [constraint=true]
+		"b44b5197-9220-4a17-a825-5c96d1274d8e" -> "664d0d80-e8ba-42c9-a129-4d42893f7e80" [constraint=true]
+	"b327075e-e700-4288-b724-e1c7a9faa93c" [label="YES: 1"]
+	"c6bae03e-c845-4a41-955e-461b4bf1b8e1" [label="NO: 31"]
+		"044034b4-ca1d-4264-9851-8e0311487d80" -> "b327075e-e700-4288-b724-e1c7a9faa93c" [constraint=true]
+		"044034b4-ca1d-4264-9851-8e0311487d80" -> "c6bae03e-c845-4a41-955e-461b4bf1b8e1" [constraint=true]
+		"f2356091-ef70-42f1-b1af-e513707af859" -> "a4eedea3-1b2e-4fe7-82d6-6c951474dfb4" [constraint=true]
+		"f2356091-ef70-42f1-b1af-e513707af859" -> "c4b710b6-d740-4f49-9d38-7dd8abf65d04" [constraint=true]
+		"628b89bd-4dfd-4498-b370-d404abcc5d88" -> "bb98b437-35ca-4efd-ac6e-e9b28e1f3e4e" [constraint=true]
+		"628b89bd-4dfd-4498-b370-d404abcc5d88" -> "129a8866-127d-4fdd-9a58-4287faff3320" [constraint=true]
+		"14aabb8e-ac0b-404a-a4fb-dc22dbe9dbcc" -> "52f49ac9-dd5e-4c4e-a8fa-a8d16cb49bc6" [constraint=true]
+		"14aabb8e-ac0b-404a-a4fb-dc22dbe9dbcc" -> "3a1ce844-eb66-46f3-823a-be9a3333531b" [constraint=true]
+		"2218b7b8-b9db-402c-9518-0f7fb35355e3" -> "8dd13676-55f3-4b12-9f9c-478016f01e76" [constraint=true]
+		"2218b7b8-b9db-402c-9518-0f7fb35355e3" -> "d37e42bc-a257-4eb5-85fd-0369086a56a8" [constraint=true]
+	"f0220c86-b137-452e-8994-fecfdac3ef69" [label="YES: 1"]
+	"c4da4d6d-0707-4631-95d1-41dc34198914" [label="NO: 0"]
+		"93497e59-0b08-47bc-9a46-08135f7a7792" -> "f0220c86-b137-452e-8994-fecfdac3ef69" [constraint=true]
+		"93497e59-0b08-47bc-9a46-08135f7a7792" -> "c4da4d6d-0707-4631-95d1-41dc34198914" [constraint=true]
+		"edb38c8f-9f6c-4ffa-baff-06c3a3af0d9f" -> "7ad577a8-794a-48bf-b9dc-b41c138d3c18" [constraint=true]
+		"edb38c8f-9f6c-4ffa-baff-06c3a3af0d9f" -> "a0cbc405-e4d9-4fdc-9330-0747ab04f18d" [constraint=true]
+		"17473a36-5f94-4e46-b14c-4d4a0112b0a9" -> "57eddbe4-2058-469e-8669-f8621d29da8a" [constraint=true]
+		"6f4ef7f9-44fd-4d72-bf57-795b81071532" -> "a829c99c-2f94-4240-9dda-5134355cfeb4" [constraint=true]
+		"6f4ef7f9-44fd-4d72-bf57-795b81071532" -> "2c1a2305-8462-48dc-8deb-35f5098386d4" [constraint=true]
+		"770ce781-0c75-4f3e-b059-65fdb82c54b7" -> "2ae362af-ebdf-4c4f-94a0-3bdab1d9a53e" [constraint=true]
+		"770ce781-0c75-4f3e-b059-65fdb82c54b7" -> "417088e2-9294-49b0-b315-f0f6f076f1bf" [constraint=true]
+	"cccb5fed-2360-4f3a-88ed-71386cb71b2c" [label="YES: 1"]
+	"572aed11-1c00-438b-86e4-398ba4665c9c" [label="NO: 4"]
+		"17c48644-873d-444c-ab80-9ee35631a4b4" -> "cccb5fed-2360-4f3a-88ed-71386cb71b2c" [constraint=true]
+		"17c48644-873d-444c-ab80-9ee35631a4b4" -> "572aed11-1c00-438b-86e4-398ba4665c9c" [constraint=true]
+		"9b3a60dd-388f-48b4-a4ea-f054f6c56572" -> "2eafddc0-12c1-4403-afbd-ac923e477dda" [constraint=true]
+		"9b3a60dd-388f-48b4-a4ea-f054f6c56572" -> "50f088e8-e899-456e-90b2-b9562282736c" [constraint=true]
+		"559b9c47-226f-4242-ac48-acc92e885740" -> "fbb44e0f-a684-4e05-8e4c-e43ef59b2f6f" [constraint=true]
+		"6df57358-fb08-4561-a1e1-e5521f4c6d74" -> "c61713d4-478d-4906-a01a-9e378d147088" [constraint=true]
+		"6df57358-fb08-4561-a1e1-e5521f4c6d74" -> "b288bf90-b2ef-49ac-9830-c89f35c40bb5" [constraint=true]
+		"6df57358-fb08-4561-a1e1-e5521f4c6d74" -> "d16f71cb-08b6-48a3-806a-a082971ab8a7" [constraint=true]
+		"5e4e0cb1-706c-4097-81b3-09ddc7b2dcef" -> "a64d974c-5418-490a-a8de-6d4b33b9ab40" [constraint=true]
+		"5e4e0cb1-706c-4097-81b3-09ddc7b2dcef" -> "497a004a-222c-4b7e-953c-f289d04f15ca" [constraint=true]
+		"e69394df-7c17-464c-945e-d0fbe4bcbb6a" -> "15b7ed21-04fb-4435-a2f5-3ecd8b5094e0" [constraint=true]
+		"e69394df-7c17-464c-945e-d0fbe4bcbb6a" -> "0ecf993b-216c-4236-af7d-8312be3e20e0" [constraint=true]
+		"d6647b80-24e0-423f-ab42-7b470079e838" -> "d8097588-8f06-4421-b7cc-5ffaa9c6ecfd" [constraint=true]
+		"d6647b80-24e0-423f-ab42-7b470079e838" -> "03815d82-689e-45ab-9716-7011673e143b" [constraint=true]
+		"b676f134-74d8-4f27-9430-c5718a945e11" -> "74be4393-39d1-4025-a7ee-0ad5fec2f2de" [constraint=true]
+		"b676f134-74d8-4f27-9430-c5718a945e11" -> "c5b8ace6-87e8-4017-91a7-d92126a007da" [constraint=true]
+		"a65e50a7-8af5-4416-9016-76e402206da7" -> "1ea7a707-c694-4d4b-b75e-298963377a44" [constraint=true]
+		"a65e50a7-8af5-4416-9016-76e402206da7" -> "e8133f57-14ad-4f41-ab50-ab0fde4abdbb" [constraint=true]
+	"0b83c591-775b-4b2d-bbac-31638d3c5af1" [label="YES: 0"]
+	"13a7a466-1b4e-400b-8f70-50592ab25d6e" [label="NO: 1"]
+		"1a5d5c42-c680-4906-8848-de1750857008" -> "0b83c591-775b-4b2d-bbac-31638d3c5af1" [constraint=true]
+		"1a5d5c42-c680-4906-8848-de1750857008" -> "13a7a466-1b4e-400b-8f70-50592ab25d6e" [constraint=true]
+		"974f513e-e2c5-4cc9-8b6b-b9224e62c885" -> "834f3839-14cc-48ed-b881-e8b10255e9c3" [constraint=true]
+		"e87400ca-d911-4451-8077-b92a0586e15c" -> "c930b654-0eb3-4b90-89e5-29f578af8855" [constraint=true]
+		"e87400ca-d911-4451-8077-b92a0586e15c" -> "82d9485c-a06b-45c7-8c9e-4076e89f2a16" [constraint=true]
+		"664d0d80-e8ba-42c9-a129-4d42893f7e80" -> "51d80ccd-7d74-4c01-8c31-32c0724c728c" [constraint=true]
+		"664d0d80-e8ba-42c9-a129-4d42893f7e80" -> "1eb60b9f-3a9d-43e4-8a38-7e3755f73e9e" [constraint=true]
+	"08657b6b-40f4-4c67-a481-0e0039c8e274" [label="YES: 0"]
+	"f4663862-5ee6-4e0c-ad30-54dac777fe9b" [label="NO: 14"]
+		"a4eedea3-1b2e-4fe7-82d6-6c951474dfb4" -> "08657b6b-40f4-4c67-a481-0e0039c8e274" [constraint=true]
+		"a4eedea3-1b2e-4fe7-82d6-6c951474dfb4" -> "f4663862-5ee6-4e0c-ad30-54dac777fe9b" [constraint=true]
+		"c4b710b6-d740-4f49-9d38-7dd8abf65d04" -> "d8c0bc27-f91c-4d83-a28f-807d8c50ce2c" [constraint=true]
+		"c4b710b6-d740-4f49-9d38-7dd8abf65d04" -> "a1571390-c5c1-4aab-879c-41b94de736ad" [constraint=true]
+	"bdfcb495-574b-45d7-8c85-f541a987f418" [label="YES: 0"]
+	"edae436a-1fa8-407b-ad98-77c240d812bf" [label="NO: 26"]
+		"bb98b437-35ca-4efd-ac6e-e9b28e1f3e4e" -> "bdfcb495-574b-45d7-8c85-f541a987f418" [constraint=true]
+		"bb98b437-35ca-4efd-ac6e-e9b28e1f3e4e" -> "edae436a-1fa8-407b-ad98-77c240d812bf" [constraint=true]
+	"b579e125-0df4-4e59-8fe4-cdf2d5cc50dc" [label="YES: 0"]
+	"f3124b72-99aa-4ea4-8409-50db85472569" [label="NO: 26"]
+		"129a8866-127d-4fdd-9a58-4287faff3320" -> "b579e125-0df4-4e59-8fe4-cdf2d5cc50dc" [constraint=true]
+		"129a8866-127d-4fdd-9a58-4287faff3320" -> "f3124b72-99aa-4ea4-8409-50db85472569" [constraint=true]
+		"52f49ac9-dd5e-4c4e-a8fa-a8d16cb49bc6" -> "2ee1fdea-0214-4cd2-b674-4a103cf70d4c" [constraint=true]
+		"52f49ac9-dd5e-4c4e-a8fa-a8d16cb49bc6" -> "e7c7fed8-70d6-4ef3-9459-506f7f4d2e7f" [constraint=true]
+		"3a1ce844-eb66-46f3-823a-be9a3333531b" -> "de7a35e6-2788-46c2-bf8c-2f0560b64e4f" [constraint=true]
+		"3a1ce844-eb66-46f3-823a-be9a3333531b" -> "4d2ce907-143a-496d-8f5a-09a1c4e5508b" [constraint=true]
+		"8dd13676-55f3-4b12-9f9c-478016f01e76" -> "e6871684-f75d-4cfb-bc3f-895d19c759f6" [constraint=true]
+		"8dd13676-55f3-4b12-9f9c-478016f01e76" -> "2a8863a1-3e4b-4e4a-8966-6f61cc4afbe7" [constraint=true]
+		"8dd13676-55f3-4b12-9f9c-478016f01e76" -> "f6aabbfb-62f3-44c5-819a-eb73d55336ea" [constraint=true]
+	"fad3c311-ee08-4b97-b743-ce6ec5156da9" [label="YES: 3"]
+	"b3431800-467e-4547-89a7-366aa8add01a" [label="NO: 3"]
+		"d37e42bc-a257-4eb5-85fd-0369086a56a8" -> "fad3c311-ee08-4b97-b743-ce6ec5156da9" [constraint=true]
+		"d37e42bc-a257-4eb5-85fd-0369086a56a8" -> "b3431800-467e-4547-89a7-366aa8add01a" [constraint=true]
+	"b36e405b-b0b2-4ba9-a4e1-c024f8c612eb" [label="YES: 0"]
+	"77639dab-ac9f-4ade-94af-091e21427ae7" [label="NO: 5"]
+		"7ad577a8-794a-48bf-b9dc-b41c138d3c18" -> "b36e405b-b0b2-4ba9-a4e1-c024f8c612eb" [constraint=true]
+		"7ad577a8-794a-48bf-b9dc-b41c138d3c18" -> "77639dab-ac9f-4ade-94af-091e21427ae7" [constraint=true]
+	"186c5ea6-c387-4b81-82d4-f71d58d03de4" [label="YES: 0"]
+	"f5a75c72-d0ae-4ede-b58f-4075b45aafae" [label="NO: 5"]
+		"a0cbc405-e4d9-4fdc-9330-0747ab04f18d" -> "186c5ea6-c387-4b81-82d4-f71d58d03de4" [constraint=true]
+		"a0cbc405-e4d9-4fdc-9330-0747ab04f18d" -> "f5a75c72-d0ae-4ede-b58f-4075b45aafae" [constraint=true]
+	"a172c5bd-d2a4-4125-b3d2-540fc8517ead" [label="YES: 2"]
+	"829a968e-fb7c-4754-b6b4-edd20b2ba19b" [label="NO: 0"]
+		"57eddbe4-2058-469e-8669-f8621d29da8a" -> "a172c5bd-d2a4-4125-b3d2-540fc8517ead" [constraint=true]
+		"57eddbe4-2058-469e-8669-f8621d29da8a" -> "829a968e-fb7c-4754-b6b4-edd20b2ba19b" [constraint=true]
+	"864c59ef-3d2f-4e14-bab5-c8ac06688862" [label="YES: 3"]
+	"a92092b9-78f5-42f3-8d2b-ae9da6def3f0" [label="NO: 0"]
+		"a829c99c-2f94-4240-9dda-5134355cfeb4" -> "864c59ef-3d2f-4e14-bab5-c8ac06688862" [constraint=true]
+		"a829c99c-2f94-4240-9dda-5134355cfeb4" -> "a92092b9-78f5-42f3-8d2b-ae9da6def3f0" [constraint=true]
+	"70ca34eb-6c3b-4aa2-842e-8b3c604c095e" [label="YES: 3"]
+	"2b98722d-1ffa-47b8-9fd6-4f9c1743bde2" [label="NO: 0"]
+		"2c1a2305-8462-48dc-8deb-35f5098386d4" -> "70ca34eb-6c3b-4aa2-842e-8b3c604c095e" [constraint=true]
+		"2c1a2305-8462-48dc-8deb-35f5098386d4" -> "2b98722d-1ffa-47b8-9fd6-4f9c1743bde2" [constraint=true]
+	"f47ed6c9-eb84-4f57-b3d1-d9701ca41d9b" [label="YES: 1"]
+	"dcbbdd96-5dc4-4708-8d97-a76ff5afe749" [label="NO: 0"]
+		"2ae362af-ebdf-4c4f-94a0-3bdab1d9a53e" -> "f47ed6c9-eb84-4f57-b3d1-d9701ca41d9b" [constraint=true]
+		"2ae362af-ebdf-4c4f-94a0-3bdab1d9a53e" -> "dcbbdd96-5dc4-4708-8d97-a76ff5afe749" [constraint=true]
+		"417088e2-9294-49b0-b315-f0f6f076f1bf" -> "ca437caa-ae51-4d74-a0c1-dd348a8f8248" [constraint=true]
+		"417088e2-9294-49b0-b315-f0f6f076f1bf" -> "14db5f7a-4423-4584-815c-c93fc9ed2d66" [constraint=true]
+		"2eafddc0-12c1-4403-afbd-ac923e477dda" -> "7f769db4-c76a-47a4-b071-0e3e0b5e924a" [constraint=true]
+		"2eafddc0-12c1-4403-afbd-ac923e477dda" -> "91509b18-fbe3-466e-9351-244cc1df04d6" [constraint=true]
+	"d4ebdcd3-de31-467b-a47e-146aae705458" [label="YES: 0"]
+	"6f796667-b452-42d5-96a1-371decc30896" [label="NO: 3"]
+		"50f088e8-e899-456e-90b2-b9562282736c" -> "d4ebdcd3-de31-467b-a47e-146aae705458" [constraint=true]
+		"50f088e8-e899-456e-90b2-b9562282736c" -> "6f796667-b452-42d5-96a1-371decc30896" [constraint=true]
+	"500f5452-e310-4bfa-8a64-916231332297" [label="YES: 3"]
+	"6ec5999e-98d3-450d-8b42-0de2242a2178" [label="NO: 0"]
+		"fbb44e0f-a684-4e05-8e4c-e43ef59b2f6f" -> "500f5452-e310-4bfa-8a64-916231332297" [constraint=true]
+		"fbb44e0f-a684-4e05-8e4c-e43ef59b2f6f" -> "6ec5999e-98d3-450d-8b42-0de2242a2178" [constraint=true]
+	"7c0bf445-3cb5-4602-a2bb-e01905eb9189" [label="YES: 0"]
+	"ae4806c4-0ff3-40c3-a964-780532cb4c3f" [label="NO: 6"]
+		"c61713d4-478d-4906-a01a-9e378d147088" -> "7c0bf445-3cb5-4602-a2bb-e01905eb9189" [constraint=true]
+		"c61713d4-478d-4906-a01a-9e378d147088" -> "ae4806c4-0ff3-40c3-a964-780532cb4c3f" [constraint=true]
+		"b288bf90-b2ef-49ac-9830-c89f35c40bb5" -> "e6152f09-3a5f-4d88-be69-74dd612d4b1c" [constraint=true]
+		"b288bf90-b2ef-49ac-9830-c89f35c40bb5" -> "eaa85854-aa5e-4bb9-b2c7-ba2995961e7f" [constraint=true]
+	"7b7a342f-c213-4454-b557-fef48c9912e0" [label="YES: 0"]
+	"9f6983e2-6050-4857-8e93-62b6e5ddd1ce" [label="NO: 6"]
+		"d16f71cb-08b6-48a3-806a-a082971ab8a7" -> "7b7a342f-c213-4454-b557-fef48c9912e0" [constraint=true]
+		"d16f71cb-08b6-48a3-806a-a082971ab8a7" -> "9f6983e2-6050-4857-8e93-62b6e5ddd1ce" [constraint=true]
+	"f24f8a90-2c47-444e-bb35-22ff7d881563" [label="YES: 4"]
+	"4f92ae25-a61c-4b8b-b75d-edb6af3b899e" [label="NO: 0"]
+		"a64d974c-5418-490a-a8de-6d4b33b9ab40" -> "f24f8a90-2c47-444e-bb35-22ff7d881563" [constraint=true]
+		"a64d974c-5418-490a-a8de-6d4b33b9ab40" -> "4f92ae25-a61c-4b8b-b75d-edb6af3b899e" [constraint=true]
+	"0104ec19-53de-40f7-baf1-717b4de556da" [label="YES: 4"]
+	"846935dd-3bb9-4d5d-8edd-66f37e4b7ac8" [label="NO: 0"]
+		"497a004a-222c-4b7e-953c-f289d04f15ca" -> "0104ec19-53de-40f7-baf1-717b4de556da" [constraint=true]
+		"497a004a-222c-4b7e-953c-f289d04f15ca" -> "846935dd-3bb9-4d5d-8edd-66f37e4b7ac8" [constraint=true]
+		"15b7ed21-04fb-4435-a2f5-3ecd8b5094e0" -> "308ba088-c582-4f35-82d9-c7c384c1d067" [constraint=true]
+		"15b7ed21-04fb-4435-a2f5-3ecd8b5094e0" -> "351218ee-f119-4cfd-a009-37f7875111d3" [constraint=true]
+		"0ecf993b-216c-4236-af7d-8312be3e20e0" -> "ac871d95-9566-45a6-af69-9258b5d2928e" [constraint=true]
+		"0ecf993b-216c-4236-af7d-8312be3e20e0" -> "7e9ae3e6-ad6e-43e0-a8fc-f1cd6d41adf7" [constraint=true]
+	"16aeead1-398b-4134-bc94-d036626be090" [label="YES: 14"]
+	"34001dba-0db4-4c23-b671-29aa4075ea3a" [label="NO: 0"]
+		"d8097588-8f06-4421-b7cc-5ffaa9c6ecfd" -> "16aeead1-398b-4134-bc94-d036626be090" [constraint=true]
+		"d8097588-8f06-4421-b7cc-5ffaa9c6ecfd" -> "34001dba-0db4-4c23-b671-29aa4075ea3a" [constraint=true]
+	"9ff05bf6-542b-4829-922b-f3a1a52babad" [label="YES: 14"]
+	"e78dc969-f4f7-4ecb-9861-db067e03d298" [label="NO: 0"]
+		"03815d82-689e-45ab-9716-7011673e143b" -> "9ff05bf6-542b-4829-922b-f3a1a52babad" [constraint=true]
+		"03815d82-689e-45ab-9716-7011673e143b" -> "e78dc969-f4f7-4ecb-9861-db067e03d298" [constraint=true]
+	"c29d57bb-e70a-4444-9c4f-c946fed21441" [label="YES: 0"]
+	"fcd3d20a-5885-4494-8e60-b198399a1159" [label="NO: 5"]
+		"74be4393-39d1-4025-a7ee-0ad5fec2f2de" -> "c29d57bb-e70a-4444-9c4f-c946fed21441" [constraint=true]
+		"74be4393-39d1-4025-a7ee-0ad5fec2f2de" -> "fcd3d20a-5885-4494-8e60-b198399a1159" [constraint=true]
+	"c39dadc4-3cf4-46f1-9c12-a37144ea1517" [label="YES: 0"]
+	"fc900874-80a6-4d89-ba2b-501712b5359b" [label="NO: 5"]
+		"c5b8ace6-87e8-4017-91a7-d92126a007da" -> "c39dadc4-3cf4-46f1-9c12-a37144ea1517" [constraint=true]
+		"c5b8ace6-87e8-4017-91a7-d92126a007da" -> "fc900874-80a6-4d89-ba2b-501712b5359b" [constraint=true]
+	"4fcf3798-6b30-4331-9af1-7712c038f70a" [label="YES: 1"]
+	"8baa59a1-9088-4bb3-911a-eaffe818d3f8" [label="NO: 0"]
+		"1ea7a707-c694-4d4b-b75e-298963377a44" -> "4fcf3798-6b30-4331-9af1-7712c038f70a" [constraint=true]
+		"1ea7a707-c694-4d4b-b75e-298963377a44" -> "8baa59a1-9088-4bb3-911a-eaffe818d3f8" [constraint=true]
+	"80432332-220b-45ec-b910-8ceb3b6f051f" [label="YES: 1"]
+	"40bc7735-ecda-4dcb-8110-0ed2ee23edf9" [label="NO: 0"]
+		"e8133f57-14ad-4f41-ab50-ab0fde4abdbb" -> "80432332-220b-45ec-b910-8ceb3b6f051f" [constraint=true]
+		"e8133f57-14ad-4f41-ab50-ab0fde4abdbb" -> "40bc7735-ecda-4dcb-8110-0ed2ee23edf9" [constraint=true]
+	"2e7688d9-e1ad-4718-bf7e-46d4da42f853" [label="YES: 2"]
+	"8cd1de9a-282b-4740-94db-11b2defb96a5" [label="NO: 0"]
+		"834f3839-14cc-48ed-b881-e8b10255e9c3" -> "2e7688d9-e1ad-4718-bf7e-46d4da42f853" [constraint=true]
+		"834f3839-14cc-48ed-b881-e8b10255e9c3" -> "8cd1de9a-282b-4740-94db-11b2defb96a5" [constraint=true]
+	"38f84303-6388-4999-b6f5-e42142aabb17" [label="YES: 0"]
+	"d4c4ba6b-d1fd-411b-b045-81d43021a0f2" [label="NO: 27"]
+		"c930b654-0eb3-4b90-89e5-29f578af8855" -> "38f84303-6388-4999-b6f5-e42142aabb17" [constraint=true]
+		"c930b654-0eb3-4b90-89e5-29f578af8855" -> "d4c4ba6b-d1fd-411b-b045-81d43021a0f2" [constraint=true]
+	"41fcce06-4373-4232-832b-0cda236970d4" [label="YES: 0"]
+	"cdf372fa-39b1-4bad-a2d0-3d4df112a405" [label="NO: 27"]
+		"82d9485c-a06b-45c7-8c9e-4076e89f2a16" -> "41fcce06-4373-4232-832b-0cda236970d4" [constraint=true]
+		"82d9485c-a06b-45c7-8c9e-4076e89f2a16" -> "cdf372fa-39b1-4bad-a2d0-3d4df112a405" [constraint=true]
+	"0d0f275b-d862-440f-8f88-85032b9837b0" [label="YES: 0"]
+	"ed371716-0b31-4caf-b750-bf60eaf4ea92" [label="NO: 1"]
+		"51d80ccd-7d74-4c01-8c31-32c0724c728c" -> "0d0f275b-d862-440f-8f88-85032b9837b0" [constraint=true]
+		"51d80ccd-7d74-4c01-8c31-32c0724c728c" -> "ed371716-0b31-4caf-b750-bf60eaf4ea92" [constraint=true]
+	"66896ca5-31c0-4f85-a672-093be26cbe2f" [label="YES: 0"]
+	"b03f4608-c5eb-4236-9b9f-5d8451ffcbe4" [label="NO: 1"]
+		"1eb60b9f-3a9d-43e4-8a38-7e3755f73e9e" -> "66896ca5-31c0-4f85-a672-093be26cbe2f" [constraint=true]
+		"1eb60b9f-3a9d-43e4-8a38-7e3755f73e9e" -> "b03f4608-c5eb-4236-9b9f-5d8451ffcbe4" [constraint=true]
+		"d8c0bc27-f91c-4d83-a28f-807d8c50ce2c" -> "8bfcf624-aa30-4933-92e1-90ca32a925b5" [constraint=true]
+		"d8c0bc27-f91c-4d83-a28f-807d8c50ce2c" -> "293aeb60-5259-40f0-abf3-208ebd775e7c" [constraint=true]
+		"d8c0bc27-f91c-4d83-a28f-807d8c50ce2c" -> "5a264c47-20f3-4b8b-ba74-bd4dfe3c9ef7" [constraint=true]
+		"a1571390-c5c1-4aab-879c-41b94de736ad" -> "be2e9121-5b9f-488f-b563-4afcb9dc1bec" [constraint=true]
+		"a1571390-c5c1-4aab-879c-41b94de736ad" -> "1e577f4f-3316-478d-93d7-9a1daf8e27eb" [constraint=true]
+		"2ee1fdea-0214-4cd2-b674-4a103cf70d4c" -> "923aebf4-ba87-4cb9-bea2-289b70a2e262" [constraint=true]
+		"2ee1fdea-0214-4cd2-b674-4a103cf70d4c" -> "303ceb09-88e7-4279-8cfc-258389de4996" [constraint=true]
+		"e7c7fed8-70d6-4ef3-9459-506f7f4d2e7f" -> "c119e950-9d35-4d49-bb3b-5c7c73cf1de4" [constraint=true]
+		"e7c7fed8-70d6-4ef3-9459-506f7f4d2e7f" -> "484ff79f-7c84-4387-a559-d627da2ef1e6" [constraint=true]
+		"de7a35e6-2788-46c2-bf8c-2f0560b64e4f" -> "930d3e51-b621-440c-9a01-f418aba6e05d" [constraint=true]
+		"de7a35e6-2788-46c2-bf8c-2f0560b64e4f" -> "0e25721f-9ae4-498e-8b25-b5e8571aee81" [constraint=true]
+		"4d2ce907-143a-496d-8f5a-09a1c4e5508b" -> "a87f156a-66a8-4a8f-bc74-650e806a929f" [constraint=true]
+		"4d2ce907-143a-496d-8f5a-09a1c4e5508b" -> "cf8b8db2-7177-480f-a532-1bd599f07251" [constraint=true]
+	"d9e8480e-7e05-4de3-940a-0a1873c3611f" [label="YES: 0"]
+	"c6e80c02-ea3d-4108-a487-c61998274013" [label="NO: 2"]
+		"e6871684-f75d-4cfb-bc3f-895d19c759f6" -> "d9e8480e-7e05-4de3-940a-0a1873c3611f" [constraint=true]
+		"e6871684-f75d-4cfb-bc3f-895d19c759f6" -> "c6e80c02-ea3d-4108-a487-c61998274013" [constraint=true]
+		"2a8863a1-3e4b-4e4a-8966-6f61cc4afbe7" -> "1b9dcc34-62f1-42b3-aae7-59084f8ac37e" [constraint=true]
+		"2a8863a1-3e4b-4e4a-8966-6f61cc4afbe7" -> "8bca853d-9e63-4821-a1ea-47b665f009b8" [constraint=true]
+	"d511bbab-e4f7-47a2-8fe2-9d0b6c83bdda" [label="YES: 0"]
+	"b0e03d38-4116-406f-a37a-71172a9f18b1" [label="NO: 2"]
+		"f6aabbfb-62f3-44c5-819a-eb73d55336ea" -> "d511bbab-e4f7-47a2-8fe2-9d0b6c83bdda" [constraint=true]
+		"f6aabbfb-62f3-44c5-819a-eb73d55336ea" -> "b0e03d38-4116-406f-a37a-71172a9f18b1" [constraint=true]
+	"215e4c51-c683-45a7-ae7e-951d7b13e86a" [label="YES: 0"]
+	"93022074-8ae2-4d2e-94ed-1e07e5429005" [label="NO: 1"]
+		"ca437caa-ae51-4d74-a0c1-dd348a8f8248" -> "215e4c51-c683-45a7-ae7e-951d7b13e86a" [constraint=true]
+		"ca437caa-ae51-4d74-a0c1-dd348a8f8248" -> "93022074-8ae2-4d2e-94ed-1e07e5429005" [constraint=true]
+		"14db5f7a-4423-4584-815c-c93fc9ed2d66" -> "d3d7082f-b764-4b66-aabb-fcabe79d8f0a" [constraint=true]
+		"14db5f7a-4423-4584-815c-c93fc9ed2d66" -> "75e7e1cb-1afa-490d-b37f-5b7f0c1ad4ea" [constraint=true]
+	"15677d36-954f-4e9b-9596-04ace302a9ed" [label="YES: 0"]
+	"893085a7-df15-4327-9609-a2a999234b09" [label="NO: 0"]
+		"7f769db4-c76a-47a4-b071-0e3e0b5e924a" -> "15677d36-954f-4e9b-9596-04ace302a9ed" [constraint=true]
+		"7f769db4-c76a-47a4-b071-0e3e0b5e924a" -> "893085a7-df15-4327-9609-a2a999234b09" [constraint=true]
+		"91509b18-fbe3-466e-9351-244cc1df04d6" -> "89130473-3414-488d-a6fb-eb157e1698a4" [constraint=true]
+		"e6152f09-3a5f-4d88-be69-74dd612d4b1c" -> "f3c48247-aab7-48ed-9956-80665b105f57" [constraint=true]
+		"e6152f09-3a5f-4d88-be69-74dd612d4b1c" -> "85142d8b-7a4e-47a8-9305-df1777e8cb8b" [constraint=true]
+		"eaa85854-aa5e-4bb9-b2c7-ba2995961e7f" -> "cd5ca26c-438d-4754-a974-cacaa4c88221" [constraint=true]
+		"eaa85854-aa5e-4bb9-b2c7-ba2995961e7f" -> "48e84f27-43f7-405e-a469-125f975646af" [constraint=true]
+	"c4bc9f80-b6c2-4846-ba44-43d7099e783f" [label="YES: 0"]
+	"61eb8be6-3cce-4b1e-8662-dc1bd51f3e5c" [label="NO: 1"]
+		"308ba088-c582-4f35-82d9-c7c384c1d067" -> "c4bc9f80-b6c2-4846-ba44-43d7099e783f" [constraint=true]
+		"308ba088-c582-4f35-82d9-c7c384c1d067" -> "61eb8be6-3cce-4b1e-8662-dc1bd51f3e5c" [constraint=true]
+	"3aaa870c-6536-4542-b089-baab74d720e0" [label="YES: 0"]
+	"dcd74871-d36a-499d-8a59-b945f5254f8a" [label="NO: 1"]
+		"351218ee-f119-4cfd-a009-37f7875111d3" -> "3aaa870c-6536-4542-b089-baab74d720e0" [constraint=true]
+		"351218ee-f119-4cfd-a009-37f7875111d3" -> "dcd74871-d36a-499d-8a59-b945f5254f8a" [constraint=true]
+		"ac871d95-9566-45a6-af69-9258b5d2928e" -> "1b4d943f-0f77-4bbc-9539-60a22df4b76e" [constraint=true]
+		"ac871d95-9566-45a6-af69-9258b5d2928e" -> "bf7fd736-1f7a-46ee-8e92-c810ffcf16b7" [constraint=true]
+		"7e9ae3e6-ad6e-43e0-a8fc-f1cd6d41adf7" -> "7fc63e53-2f39-4785-9254-61b6be8430e5" [constraint=true]
+		"7e9ae3e6-ad6e-43e0-a8fc-f1cd6d41adf7" -> "bca33604-fac6-4f07-bfa4-e5c795d8bb78" [constraint=true]
+	"ae21492d-609d-4da7-9680-edae38c274c0" [label="YES: 3"]
+	"6bee3df3-461c-4dd3-80cc-4572c380fa7f" [label="NO: 4"]
+		"8bfcf624-aa30-4933-92e1-90ca32a925b5" -> "ae21492d-609d-4da7-9680-edae38c274c0" [constraint=true]
+		"8bfcf624-aa30-4933-92e1-90ca32a925b5" -> "6bee3df3-461c-4dd3-80cc-4572c380fa7f" [constraint=true]
+	"92024059-298c-4dca-a20d-8d7ea8ecba46" [label="YES: 3"]
+	"9ff67335-048d-436d-bb90-a4b98312b7fc" [label="NO: 4"]
+		"293aeb60-5259-40f0-abf3-208ebd775e7c" -> "92024059-298c-4dca-a20d-8d7ea8ecba46" [constraint=true]
+		"293aeb60-5259-40f0-abf3-208ebd775e7c" -> "9ff67335-048d-436d-bb90-a4b98312b7fc" [constraint=true]
+	"89e975b5-9135-49d0-a55f-170376762c5c" [label="YES: 3"]
+	"8ae6db9c-e4e9-4c01-a651-f091fc995d6b" [label="NO: 4"]
+		"5a264c47-20f3-4b8b-ba74-bd4dfe3c9ef7" -> "89e975b5-9135-49d0-a55f-170376762c5c" [constraint=true]
+		"5a264c47-20f3-4b8b-ba74-bd4dfe3c9ef7" -> "8ae6db9c-e4e9-4c01-a651-f091fc995d6b" [constraint=true]
+	"2f7915c0-6f1b-46b8-b877-2b7238ee3564" [label="YES: 0"]
+	"f5dd3553-4391-4686-bee6-1741bb49fb5e" [label="NO: 0"]
+		"be2e9121-5b9f-488f-b563-4afcb9dc1bec" -> "2f7915c0-6f1b-46b8-b877-2b7238ee3564" [constraint=true]
+		"be2e9121-5b9f-488f-b563-4afcb9dc1bec" -> "f5dd3553-4391-4686-bee6-1741bb49fb5e" [constraint=true]
+	"ca44afe7-cf18-4b44-92aa-955865aa01b5" [label="YES: 0"]
+	"9b82b9b3-1752-423d-8a45-2341c588dba2" [label="NO: 0"]
+		"1e577f4f-3316-478d-93d7-9a1daf8e27eb" -> "ca44afe7-cf18-4b44-92aa-955865aa01b5" [constraint=true]
+		"1e577f4f-3316-478d-93d7-9a1daf8e27eb" -> "9b82b9b3-1752-423d-8a45-2341c588dba2" [constraint=true]
+	"7acf8350-4573-404d-abc0-a6c3e2fc5312" [label="YES: 0"]
+	"8e842e81-3e43-4913-bed8-8e13eb62a58e" [label="NO: 4"]
+		"923aebf4-ba87-4cb9-bea2-289b70a2e262" -> "7acf8350-4573-404d-abc0-a6c3e2fc5312" [constraint=true]
+		"923aebf4-ba87-4cb9-bea2-289b70a2e262" -> "8e842e81-3e43-4913-bed8-8e13eb62a58e" [constraint=true]
+	"36f837c6-8bba-497b-a5d8-2e2a7c498287" [label="YES: 0"]
+	"33b9c5c8-ce19-4725-99a0-980753922b77" [label="NO: 4"]
+		"303ceb09-88e7-4279-8cfc-258389de4996" -> "36f837c6-8bba-497b-a5d8-2e2a7c498287" [constraint=true]
+		"303ceb09-88e7-4279-8cfc-258389de4996" -> "33b9c5c8-ce19-4725-99a0-980753922b77" [constraint=true]
+	"ccc25617-dd32-4c11-b011-09d85c26d0d8" [label="YES: 0"]
+	"599f1096-94b1-45f7-9dfa-358ac10bf31c" [label="NO: 9"]
+		"c119e950-9d35-4d49-bb3b-5c7c73cf1de4" -> "ccc25617-dd32-4c11-b011-09d85c26d0d8" [constraint=true]
+		"c119e950-9d35-4d49-bb3b-5c7c73cf1de4" -> "599f1096-94b1-45f7-9dfa-358ac10bf31c" [constraint=true]
+	"f6d119f0-8eb2-40a3-81ee-4c35a9a80e78" [label="YES: 0"]
+	"58a9eef7-e25d-47fe-be5b-6eb5df720f12" [label="NO: 9"]
+		"484ff79f-7c84-4387-a559-d627da2ef1e6" -> "f6d119f0-8eb2-40a3-81ee-4c35a9a80e78" [constraint=true]
+		"484ff79f-7c84-4387-a559-d627da2ef1e6" -> "58a9eef7-e25d-47fe-be5b-6eb5df720f12" [constraint=true]
+	"9b7dcedd-3549-4f0d-b29e-01ade667e8b8" [label="YES: 1"]
+	"96a92f57-3587-476e-b45d-5779985fb53a" [label="NO: 0"]
+		"930d3e51-b621-440c-9a01-f418aba6e05d" -> "9b7dcedd-3549-4f0d-b29e-01ade667e8b8" [constraint=true]
+		"930d3e51-b621-440c-9a01-f418aba6e05d" -> "96a92f57-3587-476e-b45d-5779985fb53a" [constraint=true]
+	"b09fbc00-dbd3-40d8-a3b1-4eebe3e4b4fb" [label="YES: 1"]
+	"b6e25718-7183-4791-8358-80af2559f104" [label="NO: 0"]
+		"0e25721f-9ae4-498e-8b25-b5e8571aee81" -> "b09fbc00-dbd3-40d8-a3b1-4eebe3e4b4fb" [constraint=true]
+		"0e25721f-9ae4-498e-8b25-b5e8571aee81" -> "b6e25718-7183-4791-8358-80af2559f104" [constraint=true]
+	"20464d0d-0d2d-4b42-be22-e540b727963b" [label="YES: 4"]
+	"0d8a2e92-4844-417d-bbc9-f423e59103d4" [label="NO: 0"]
+		"a87f156a-66a8-4a8f-bc74-650e806a929f" -> "20464d0d-0d2d-4b42-be22-e540b727963b" [constraint=true]
+		"a87f156a-66a8-4a8f-bc74-650e806a929f" -> "0d8a2e92-4844-417d-bbc9-f423e59103d4" [constraint=true]
+	"6f599a7a-1d98-47af-a9b8-eadbc234bc8d" [label="YES: 4"]
+	"b668cb78-031f-4b5e-b5e5-2238549b920f" [label="NO: 0"]
+		"cf8b8db2-7177-480f-a532-1bd599f07251" -> "6f599a7a-1d98-47af-a9b8-eadbc234bc8d" [constraint=true]
+		"cf8b8db2-7177-480f-a532-1bd599f07251" -> "b668cb78-031f-4b5e-b5e5-2238549b920f" [constraint=true]
+	"d4badc8b-c85f-4b38-9517-071ba01fbae3" [label="YES: 2"]
+	"b75e1aa2-c79d-49cf-bd2a-e082fa7c8067" [label="NO: 0"]
+		"1b9dcc34-62f1-42b3-aae7-59084f8ac37e" -> "d4badc8b-c85f-4b38-9517-071ba01fbae3" [constraint=true]
+		"1b9dcc34-62f1-42b3-aae7-59084f8ac37e" -> "b75e1aa2-c79d-49cf-bd2a-e082fa7c8067" [constraint=true]
+	"b0bc89d6-450f-4706-8bc2-178bb49e431c" [label="YES: 2"]
+	"a794ce77-5ff0-48c6-90e0-131dfff489f7" [label="NO: 0"]
+		"8bca853d-9e63-4821-a1ea-47b665f009b8" -> "b0bc89d6-450f-4706-8bc2-178bb49e431c" [constraint=true]
+		"8bca853d-9e63-4821-a1ea-47b665f009b8" -> "a794ce77-5ff0-48c6-90e0-131dfff489f7" [constraint=true]
+	"23abf456-d44c-45b0-9a0f-efeb61bb965c" [label="YES: 0"]
+	"970bb190-6f69-446d-95cb-8478bec4bace" [label="NO: 2"]
+		"d3d7082f-b764-4b66-aabb-fcabe79d8f0a" -> "23abf456-d44c-45b0-9a0f-efeb61bb965c" [constraint=true]
+		"d3d7082f-b764-4b66-aabb-fcabe79d8f0a" -> "970bb190-6f69-446d-95cb-8478bec4bace" [constraint=true]
+	"3c4bf826-14ea-4429-aae4-befdd90f4dbd" [label="YES: 0"]
+	"492a4414-f909-4a36-82ff-41dbcd8b48c6" [label="NO: 2"]
+		"75e7e1cb-1afa-490d-b37f-5b7f0c1ad4ea" -> "3c4bf826-14ea-4429-aae4-befdd90f4dbd" [constraint=true]
+		"75e7e1cb-1afa-490d-b37f-5b7f0c1ad4ea" -> "492a4414-f909-4a36-82ff-41dbcd8b48c6" [constraint=true]
+	"733a2da3-9bad-44f3-ae32-bbba8521b7fe" [label="YES: 0"]
+	"32b063ed-7d02-4799-adc6-3435db0bf904" [label="NO: 3"]
+		"89130473-3414-488d-a6fb-eb157e1698a4" -> "733a2da3-9bad-44f3-ae32-bbba8521b7fe" [constraint=true]
+		"89130473-3414-488d-a6fb-eb157e1698a4" -> "32b063ed-7d02-4799-adc6-3435db0bf904" [constraint=true]
+	"6f31f015-8ddc-456e-8c1d-4e8e63cf3811" [label="YES: 0"]
+	"d4e6f62d-197e-424b-bfbf-7a4cf118d394" [label="NO: 2"]
+		"f3c48247-aab7-48ed-9956-80665b105f57" -> "6f31f015-8ddc-456e-8c1d-4e8e63cf3811" [constraint=true]
+		"f3c48247-aab7-48ed-9956-80665b105f57" -> "d4e6f62d-197e-424b-bfbf-7a4cf118d394" [constraint=true]
+	"861f5942-b5ab-43f1-b77c-d14666670f3f" [label="YES: 0"]
+	"75f05968-987c-4c4e-a27e-85385154a2b4" [label="NO: 2"]
+		"85142d8b-7a4e-47a8-9305-df1777e8cb8b" -> "861f5942-b5ab-43f1-b77c-d14666670f3f" [constraint=true]
+		"85142d8b-7a4e-47a8-9305-df1777e8cb8b" -> "75f05968-987c-4c4e-a27e-85385154a2b4" [constraint=true]
+	"13b0aec4-8dd0-4e20-975e-3f479f42cbc9" [label="YES: 5"]
+	"ed5099fc-d178-45ff-a350-1e5c652e68f1" [label="NO: 0"]
+		"cd5ca26c-438d-4754-a974-cacaa4c88221" -> "13b0aec4-8dd0-4e20-975e-3f479f42cbc9" [constraint=true]
+		"cd5ca26c-438d-4754-a974-cacaa4c88221" -> "ed5099fc-d178-45ff-a350-1e5c652e68f1" [constraint=true]
+	"dc894e99-ad41-4a17-b987-55ccf179e5fe" [label="YES: 5"]
+	"6c4c7910-3e5b-4f24-bfec-5522ded61917" [label="NO: 0"]
+		"48e84f27-43f7-405e-a469-125f975646af" -> "dc894e99-ad41-4a17-b987-55ccf179e5fe" [constraint=true]
+		"48e84f27-43f7-405e-a469-125f975646af" -> "6c4c7910-3e5b-4f24-bfec-5522ded61917" [constraint=true]
+	"9f03514d-ee79-415c-b863-1c83c1baf287" [label="YES: 2"]
+	"3372adbb-2af5-4cc5-ac77-5072cbc52060" [label="NO: 0"]
+		"1b4d943f-0f77-4bbc-9539-60a22df4b76e" -> "9f03514d-ee79-415c-b863-1c83c1baf287" [constraint=true]
+		"1b4d943f-0f77-4bbc-9539-60a22df4b76e" -> "3372adbb-2af5-4cc5-ac77-5072cbc52060" [constraint=true]
+	"8cfb42c0-8230-48c9-9a03-06ca20f2428a" [label="YES: 2"]
+	"9ff9f665-f1a7-4870-9180-3b6934b9f1ff" [label="NO: 0"]
+		"bf7fd736-1f7a-46ee-8e92-c810ffcf16b7" -> "8cfb42c0-8230-48c9-9a03-06ca20f2428a" [constraint=true]
+		"bf7fd736-1f7a-46ee-8e92-c810ffcf16b7" -> "9ff9f665-f1a7-4870-9180-3b6934b9f1ff" [constraint=true]
+	"ff4227d5-c1ca-4c20-918b-55f4353cff40" [label="YES: 3"]
+	"fbd43fc1-3373-4dfd-bfbf-ba9ee69cfecc" [label="NO: 0"]
+		"7fc63e53-2f39-4785-9254-61b6be8430e5" -> "ff4227d5-c1ca-4c20-918b-55f4353cff40" [constraint=true]
+		"7fc63e53-2f39-4785-9254-61b6be8430e5" -> "fbd43fc1-3373-4dfd-bfbf-ba9ee69cfecc" [constraint=true]
+	"2ed9c1a3-bcb7-41ce-91d5-2242ab93934b" [label="YES: 3"]
+	"8840006d-09a0-4b0e-ba71-fa54a1c0e33f" [label="NO: 0"]
+		"bca33604-fac6-4f07-bfa4-e5c795d8bb78" -> "2ed9c1a3-bcb7-41ce-91d5-2242ab93934b" [constraint=true]
+		"bca33604-fac6-4f07-bfa4-e5c795d8bb78" -> "8840006d-09a0-4b0e-ba71-fa54a1c0e33f" [constraint=true]
 }
